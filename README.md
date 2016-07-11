@@ -57,6 +57,8 @@ public static final int RETURN_SIGTERM                 = 143
 
 # data that needs parsing
 
+## admin list 
+```
  State  |   IP Address    |                UUID                |      Name
 --------+-----------------+------------------------------------+---------------
      On | [Debug] VBoxManage ("guestproperty", "get", "Google Nexus 6P - 6.0.0 - API 23 - 1440x2560", "androvm_ip_management") returns 0
@@ -67,5 +69,40 @@ public static final int RETURN_SIGTERM                 = 143
     Off |         0.0.0.0 |2a0f4213-f228-4938-a87b-1506c27485be| Google Nexus 4 - 4.3 - API 18 - 768x1280
     Off |         0.0.0.0 |2b115107-a7b4-477b-8ae6-22a87c4b9045| Google Nexus 4 - 4.2.2 - API 17 - 768x1280
     Off |         0.0.0.0 |ed3d41c7-0a15-427d-9d05-bedf88ad023d| Google Nexus 4 - 4.1.1 - API 16 - 768x1280
+```
 
+## admin details
+```
+Name                  : Google Nexus 6 - 5.0.0 - API 21 - 1440x2560
+UUID                  : feb5e979-b52d-4cb2-9610-aeec57ca526a
+Android Version       : 5.0.0
+API Level             : 21
+Genymotion Version    : 2.7.2
+Screen Width          : 1440
+Screen Height         : 2560
+Screen Density        : 560dpi
+Screen DPI            : 560
+Nb CPU                : 4
+RAM                   : 3072
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : false
+Path                  : [Debug] VBoxManage ("showvminfo", "Google Nexus 6 - 5.0.0 - API 21 - 1440x2560") returns 0
+/Users/ghuntley/.Genymobile/Genymotion/deployed/Google Nexus 6 - 5.0.0 - API 21 - 1440x2560
+State                 : Off
+IP                    : [Debug] VBoxManage ("guestproperty", "get", "Google Nexus 6 - 5.0.0 - API 21 - 1440x2560", "androvm_ip_management") returns 0
+0.0.0.0
+Network mode          : [Debug] VBoxManage ("showvminfo", "Google Nexus 6 - 5.0.0 - API 21 - 1440x2560") returns 0
+Nat
+System property       : PRODUCT=
+System property       : MODEL=
+System property       : RELEASE=
+System property       : MANUFACTURER=
+System property       : BRAND=
+System property       : BOARD=
+System property       : DISPLAY=
+System property       : DEVICE=
+```
 
+# cli locations
+* /Applications/Genymotion.app/Contents/MacOS/gmtool

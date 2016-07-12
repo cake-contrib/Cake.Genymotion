@@ -22,7 +22,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType></DebugType>
+    <DebugType>
+    </DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
@@ -49,29 +50,39 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\CommonAssemblyInfo.cs" />
+    <Compile Include="Admin\GenymotionAdminCreateRunner.cs" />
+    <Compile Include="Admin\GenymotionCreateSettings.cs" />
+    <Compile Include="Admin\GenymotionAdminEditRunner.cs" />
+    <Compile Include="Admin\GenymotionEditSettings.cs" />
+    <Compile Include="Admin\AndroidScreenDensity.cs" />
+    <Compile Include="Config\GenymotionConfigRunner.cs" />
+    <Compile Include="Config\GenymotionConfigSettings.cs" />
+    <Compile Include="Device\GenymotionDeviceRunner.cs" />
+    <Compile Include="Device\GenymotionDeviceSettings.cs" />
     <Compile Include="GenymotionAliases.cs" />
+    <Compile Include="Admin\GenymotionSimulatorNetworkMode.cs" />
+    <Compile Include="Admin\GenymotionTemplateResult.cs" />
+    <Compile Include="License\GenymotionLicense.cs" />
+    <Compile Include="License\GenymotionLicenseRunner.cs" />
+    <Compile Include="License\GenymotionLicenseSettings.cs" />
+    <Compile Include="Admin\GenymotionAdminSettings.cs" />
+    <Compile Include="License\GenymotionLicenseType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="GenymotionRunner.cs" />
     <Compile Include="GenymotionSettings.cs" />
     <Compile Include="GenymotionReturnCode.cs" />
-    <Compile Include="SimulatorState.cs" />
-    <Compile Include="Details\Simulator.cs" />
-    <Compile Include="List\Simulator.cs" />
-    <Compile Include="List\GenymotionListSimulatorRunner.cs" />
+    <Compile Include="Admin\GenymotionSimulatorState.cs" />
+    <Compile Include="Admin\GenymotionDetailsResult.cs" />
+    <Compile Include="Admin\GenymotionListResult.cs" />
+    <Compile Include="Admin\GenymotionAdminRunner.cs" />
     <Compile Include="GenymotionTool.cs" />
+    <Compile Include="Version\GenymotionVersion.cs" />
+    <Compile Include="Version\GenymotionVersionSettings.cs" />
+    <Compile Include="Version\GenymotionVersionRunner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Stop\" />
-    <Folder Include="Start\" />
-    <Folder Include="Reset\" />
-    <Folder Include="Adb\" />
-    <Folder Include="License\" />
-    <Folder Include="List\" />
-    <Folder Include="Details\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

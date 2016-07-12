@@ -1,4 +1,5 @@
-﻿using Cake.Core;
+﻿using System;
+using Cake.Core;
 using Cake.Core.IO;
 using Cake.Core.Tooling;
 
@@ -13,24 +14,27 @@ namespace Cake.Genymotion.License
             _environment = environment;
         }
 
-        public void Count()
+        public GenymotionReturnCode Count()
         {
-            
+            throw new NotImplementedException();
+
         }
 
-        public void Info()
+        public GenymotionReturnCode Info()
         {
-            
+            throw new NotImplementedException();
+
         }
 
-        public void Register(string licenseKey)
+        public GenymotionReturnCode Register(string licenseKey)
         {
-            
+            throw new NotImplementedException();
+
         }
 
-        public void Validity()
+        public GenymotionReturnCode Validity()
         {
-            
+            throw new NotImplementedException();
         }
     }
 }

@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Cake.Genymotion.Details
+namespace Cake.Genymotion.Admin
 {
-	public class Simulator
+	public class GenymotionDetailsResult
 	{
 		public string Name { get; set; }
 		public string UUID { get; set;}
@@ -19,7 +18,7 @@ namespace Cake.Genymotion.Details
 		public bool Telephony { get; set;}
 		public string NavBarVisible { get; set;}
 		public string Path { get; set;}
-		public SimulatorState State { get; set;}
+		public GenymotionSimulatorState State { get; set;}
 		public string IP { get; set;}
 		public string NetworkMode { get; set; }
 		public Dictionary<string, string> SystemProperties { get; set;}

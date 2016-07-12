@@ -1,6 +1,9 @@
-﻿namespace Cake.Genymotion.Tests.Unit.License
+﻿using Cake.Genymotion.Tests.Fixtures.License;
+using Xunit;
+
+namespace Cake.Genymotion.Tests.Unit.License
 {
-	public class GenymotionLicenseTests
+	public class GenymotionLicenseInfoTests
 	{
         //[Theory]
         //[InlineData(true, "upgrade \\"Cake\" -v -y")]
@@ -8,7 +11,7 @@
         public void Should_Add_Verbose_Flag_To_Arguments_If_Set(bool verbose, string expected)
         {
             // Given
-            var fixture = new GenymotionLicenseFixture();
+            var fixture = new GenymotionLicenseInfoFixture();
             fixture.Settings.Verbose = verbose;
 
             // When

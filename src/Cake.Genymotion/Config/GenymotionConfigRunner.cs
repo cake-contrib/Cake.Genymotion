@@ -1,4 +1,5 @@
-﻿using Cake.Core;
+﻿using System;
+using Cake.Core;
 using Cake.Core.IO;
 using Cake.Core.Tooling;
 
@@ -13,29 +14,29 @@ namespace Cake.Genymotion.Config
             _environment = environment;
         }
 
-        public void Config()
+        public GenymotionReturnCode Config()
         {
-
+            throw new NotImplementedException();
         }
 
-        public void ClearCache()
+        public GenymotionReturnCode ClearCache()
         {
-            
+            throw new NotImplementedException();
         }
 
-        public void Print()
+        public GenymotionReturnCode Print()
         {
-            
+            throw new NotImplementedException();
         }
 
-        public void Reset()
+        public GenymotionReturnCode Reset()
         {
-            
+            throw new NotImplementedException();
         }
 
-        public void SignOut()
+        public GenymotionReturnCode SignOut()
         {
-            
+            throw new NotImplementedException();
         }
     }
 }

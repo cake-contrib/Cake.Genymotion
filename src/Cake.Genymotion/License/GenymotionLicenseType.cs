@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cake.Genymotion.List
+namespace Cake.Genymotion.License
 {
-    public sealed class GenymotionListSimulatorSettings : GenymotionSettings
+    public enum GenymotionLicenseType
     {
+        Unknown = 0,
+        Personal,
+        Indie
     }
 }

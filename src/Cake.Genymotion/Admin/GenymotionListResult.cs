@@ -1,10 +1,8 @@
-﻿using System;
-
-namespace Cake.Genymotion.List
+﻿namespace Cake.Genymotion.Admin
 {
-    public class Simulator
+    public class GenymotionListResult
     {
-        public SimulatorState State { get; set; }
+        public GenymotionSimulatorState State { get; set; }
         public string IpAddress { get; set; }
         public string UUID { get; set; }
         public string Name { get; set; }

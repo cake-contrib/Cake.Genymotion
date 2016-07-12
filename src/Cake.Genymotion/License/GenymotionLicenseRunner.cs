@@ -14,10 +14,12 @@ namespace Cake.Genymotion.License
             _environment = environment;
         }
 
-        public GenymotionReturnCode Count()
+        /// <summary>
+        /// retrieves amount of workstations the installed license is activated on from the Genymotion API.
+        /// </summary>
+        public int Count()
         {
             throw new NotImplementedException();
-
         }
 
         public GenymotionReturnCode Info()

@@ -1,14 +1,18 @@
 ﻿using System;
-using Cake.Genymotion;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Cake.Genymotion.License;
 
-namespace Cake.Genymotion.Tests
+namespace Cake.Genymotion.Tests.Fixtures.License
 {
-	internal sealed class GenymotionLicenseFixture : GenymotionFixture<GenymotionSettings>
-	{
-		protected override void RunTool()
-		{
-			var tool = new GenymotionTool(FileSystem, Environment, ProcessRunner, Tools);
-			tool.Build(Project, Settings);
-		}
-	}
+    internal sealed class GenymotionLicenseFixture : GenymotionFixture<GenymotionLicenseSettings>
+    {
+        protected override void RunTool()
+        {
+            //var tool = new DotNetCorePublisher(FileSystem, Environment, ProcessRunner, Tools);
+            //tool.Publish(Project, Settings);
+        }
+    }
 }

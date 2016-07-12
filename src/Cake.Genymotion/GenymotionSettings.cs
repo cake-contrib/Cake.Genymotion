@@ -4,7 +4,7 @@ using Cake.Core.Tooling;
 namespace Cake.Genymotion
 {
 	/// <summary>
-	/// Contains common settings used by <see cref="Genymotion{TSettings}" />.
+	/// Contains common settings used by Genymotion />.
 	/// </summary>
 	public abstract class GenymotionSettings : ToolSettings
     {

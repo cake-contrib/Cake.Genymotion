@@ -34,7 +34,7 @@ namespace Cake.Genymotion
 		/// <returns>The name of the tool.</returns>
 		protected override string GetToolName()
 		{
-			return "Command line utility (gmtool) to control the Genymotion Simulator";
+			return "Command line utility (gmtool/gmtool.exe) to control the Genymotion Simulator";
 		}
 
 		/// <summary>
@@ -67,8 +67,8 @@ namespace Cake.Genymotion
 			{
 				builder.Append($"--timeout {settings.Timeout}");
 			}
-			l
-			return builder;
+
+            return builder;
 		}
 	}
 

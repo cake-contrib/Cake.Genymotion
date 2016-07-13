@@ -44,7 +44,9 @@ namespace Cake.Genymotion.Admin
 
         public IEnumerable<GenymotionListResult> List(GenymotionAdminSettings settings)
         {
-            var stdOutput = RunAndRedirectStandardOutput(settings, CreateArgumentBuilder(settings));
+            var arguments = CreateArgumentBuilder(settings).Append("admin list");
+
+            var stdOutput = RunAndRedirectStandardOutput(settings, arguments);
             return AdminListGrammar.Simulators.Parse(stdOutput);
         }
 

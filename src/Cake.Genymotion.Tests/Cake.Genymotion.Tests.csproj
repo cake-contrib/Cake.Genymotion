@@ -116,8 +116,12 @@
     <Folder Include="Unit\Version\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Fixtures\Admin\AdminList.txt" />
-    <Content Include="Fixtures\Admin\AdminTemplatesFull.txt" />
+    <Content Include="Fixtures\Admin\AdminList.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fixtures\Admin\AdminTemplatesFull.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Fixtures\License\LicenseInfo.txt" />
     <Content Include="Fixtures\License\LicenseValidity.txt" />
   </ItemGroup>

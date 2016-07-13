@@ -9,7 +9,6 @@ namespace Cake.Genymotion.Tests.Fixtures
         protected GenymotionFixture()
             : base("gmtool.exe")
         {
-            ProcessRunner.Process.SetStandardOutput(new string[] {});
         }
 
         protected override ToolFixtureResult CreateResult(FilePath path, ProcessSettings process)

@@ -36,7 +36,7 @@ namespace Cake.Genymotion
         /// <returns>The name of the tool.</returns>
         protected override string GetToolName()
         {
-            return "Command line utility (gmtool/gmtool.exe) to control the Genymotion Simulator";
+            return "Genymotion";
         }
 
         /// <summary>
@@ -59,6 +59,11 @@ namespace Cake.Genymotion
         /// <returns>Instance of <see cref="ProcessArgumentBuilder" />.</returns>
         protected ProcessArgumentBuilder CreateArgumentBuilder(TSettings settings)
         {
+            if (settings == null)
+            {
+                throw new ArgumentNullException(nameof(settings));
+            }
+
             var builder = new ProcessArgumentBuilder();
 
             if (settings.Verbose)

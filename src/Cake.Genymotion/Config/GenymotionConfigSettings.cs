@@ -1,20 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Cake.Genymotion.Config
+﻿namespace Cake.Genymotion.Config
 {
     public sealed class GenymotionConfigSettings : GenymotionSettings
     {
         /// <summary>
-        /// Genymotion.com username
+        ///     Genymotion.com username
         /// </summary>
         public string Username { get; set; }
 
         /// <summary>
-        /// Genymotion.com password
+        ///     Genymotion.com password
         /// </summary>
         public string Password { get; set; }
 

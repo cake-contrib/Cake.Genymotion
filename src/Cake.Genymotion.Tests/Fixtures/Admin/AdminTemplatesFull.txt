@@ -1,0 +1,1843 @@
+﻿Name                  : Custom Phone - 4.1.1 - API 16 - 768x1280
+UUID                  : 2bb3d2b7-3b56-476a-b13e-ffc57722b1a5
+Description           : Custom Phone (4.7", 768x1280, MDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 768
+Screen Height         : 1280
+Screen Density        : mdpi
+Screen DPI            : 160
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Custom Phone - 4.2.2 - API 17 - 768x1280
+UUID                  : a6a74318-d148-4761-a341-4f60a40a72a3
+Description           : Custom Phone (4.7", 768x1280, MDPI) AOSP4.2.2 API 17
+Android Version       : 4.2.2
+API Level             : 17
+Genymotion Version    : 2.7.2
+Screen Width          : 768
+Screen Height         : 1280
+Screen Density        : mdpi
+Screen DPI            : 160
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Custom Phone - 4.3 - API 18 - 768x1280
+UUID                  : 25fb06ad-96d9-45f2-b6c9-f6da3c285cb1
+Description           : Custom Phone (4.7", 768x1280, MDPI) AOSP4.3 API 18
+Android Version       : 4.3
+API Level             : 18
+Genymotion Version    : 2.7.2
+Screen Width          : 768
+Screen Height         : 1280
+Screen Density        : mdpi
+Screen DPI            : 160
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Custom Phone - 4.4.4 - API 19 - 768x1280
+UUID                  : b1e51193-4db8-43f7-b7cd-ae35eebb6bca
+Description           : Custom Phone (4.7", 768x1280, MDPI) AOSP4.4.4 API 19
+Android Version       : 4.4.4
+API Level             : 19
+Genymotion Version    : 2.7.2
+Screen Width          : 768
+Screen Height         : 1280
+Screen Density        : mdpi
+Screen DPI            : 160
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Custom Phone - 5.0.0 - API 21 - 768x1280
+UUID                  : ca245ccd-6920-4b3b-a354-2592887a7bb4
+Description           : Custom Phone (4.7", 768x1280, MDPI) AOSP5.0.0 API 21
+Android Version       : 5.0.0
+API Level             : 21
+Genymotion Version    : 2.7.2
+Screen Width          : 768
+Screen Height         : 1280
+Screen Density        : mdpi
+Screen DPI            : 160
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Custom Phone - 5.1.0 - API 22 - 768x1280
+UUID                  : 3752d651-4657-4284-b620-978472e7d8ac
+Description           : Custom Phone (4.7", 768x1280, MDPI) AOSP5.1.0 API 22
+Android Version       : 5.1.0
+API Level             : 22
+Genymotion Version    : 2.7.2
+Screen Width          : 768
+Screen Height         : 1280
+Screen Density        : mdpi
+Screen DPI            : 160
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Custom Phone - 6.0.0 - API 23 - 768x1280
+UUID                  : f028a901-70e3-4d31-8aca-3993d2dbcde3
+Description           : Custom Phone (4.7", 768x1280, MDPI) AOSP6.0.0 API 23
+Android Version       : 6.0.0
+API Level             : 23
+Genymotion Version    : 2.7.2
+Screen Width          : 768
+Screen Height         : 1280
+Screen Density        : mdpi
+Screen DPI            : 160
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Custom Tablet - 4.1.1 - API 16 - 2560x1600
+UUID                  : eca38dc6-f97e-48a3-ac2f-79666a82234d
+Description           : Custom Tablet (10.055", 2560x1600, XHDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 2560
+Screen Height         : 1600
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Custom Tablet - 4.2.2 - API 17 - 2560x1600
+UUID                  : b5497452-83e5-4072-9355-476bb19a740d
+Description           : Custom Tablet (10.055", 2560x1600, XHDPI) AOSP4.2.2 API 17
+Android Version       : 4.2.2
+API Level             : 17
+Genymotion Version    : 2.7.2
+Screen Width          : 2560
+Screen Height         : 1600
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Custom Tablet - 4.3 - API 18 - 2560x1600
+UUID                  : cc40e75f-0be5-4f2b-a1d6-8f20b220d9eb
+Description           : Custom Tablet (10.055", 2560x1600, XHDPI) AOSP4.3 API 18
+Android Version       : 4.3
+API Level             : 18
+Genymotion Version    : 2.7.2
+Screen Width          : 2560
+Screen Height         : 1600
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Custom Tablet - 4.4.4 - API 19 - 2560x1600
+UUID                  : 5e4c60b3-327b-4fb4-98e2-4f996900e145
+Description           : Custom Tablet (10.055", 2560x1600, XHDPI) AOSP4.4.4 API 19
+Android Version       : 4.4.4
+API Level             : 19
+Genymotion Version    : 2.7.2
+Screen Width          : 2560
+Screen Height         : 1600
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Custom Tablet - 5.0.0 - API 21 - 2560x1600
+UUID                  : f6db2e31-feee-4262-ae4b-dd3749eece87
+Description           : Custom Tablet (10.055", 2560x1600, XHDPI) AOSP5.0.0 API 21
+Android Version       : 5.0.0
+API Level             : 21
+Genymotion Version    : 2.7.2
+Screen Width          : 2560
+Screen Height         : 1600
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Custom Tablet - 5.1.0 - API 22 - 2560x1600
+UUID                  : cde39d84-1698-47f8-8edb-b0c1dda09bcb
+Description           : Custom Tablet (10.055", 2560x1600, XHDPI) AOSP5.1.0 API 22
+Android Version       : 5.1.0
+API Level             : 22
+Genymotion Version    : 2.7.2
+Screen Width          : 2560
+Screen Height         : 1600
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Custom Tablet - 6.0.0 - API 23 - 2560x1600
+UUID                  : 97027cf3-9498-4bf1-8414-88a6b3d4b83c
+Description           : Custom Tablet (10.055", 2560x1600, XHDPI) AOSP6.0.0 API 23
+Android Version       : 6.0.0
+API Level             : 23
+Genymotion Version    : 2.7.2
+Screen Width          : 2560
+Screen Height         : 1600
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Galaxy Nexus - 4.1.1 - API 16 - 720x1280
+UUID                  : 4dcfd22b-3662-4f89-ac61-9580c1ff2a1b
+Description           : Google Galaxy Nexus (4.65", 720x1280, XHDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Galaxy Nexus - 4.2.2 - API 17 - 720x1280
+UUID                  : 6aa6b1f0-3b50-42e9-9723-7237eef69348
+Description           : Google Galaxy Nexus (4.65", 720x1280, XHDPI) AOSP4.2.2 API 17
+Android Version       : 4.2.2
+API Level             : 17
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Galaxy Nexus - 4.3 - API 18 - 720x1280
+UUID                  : d4e07f01-26ac-4fb1-ab30-ba6ca71a1fd2
+Description           : Google Galaxy Nexus (4.65", 720x1280, XHDPI) AOSP4.3 API 18
+Android Version       : 4.3
+API Level             : 18
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 10 - 4.2.2 - API 17 - 2560x1600
+UUID                  : 644aeecc-6280-482f-9764-3ba3f19f7b4d
+Description           : Google Nexus 10 (10.055", 2560x1600, XHDPI) AOSP4.2.2 API 17
+Android Version       : 4.2.2
+API Level             : 17
+Genymotion Version    : 2.7.2
+Screen Width          : 2560
+Screen Height         : 1600
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 10 - 4.3 - API 18 - 2560x1600
+UUID                  : 9bcef4d7-e969-4963-a048-520ec7b1e1ab
+Description           : Google Nexus 10 (10.055", 2560x1600, XHDPI) AOSP4.3 API 18
+Android Version       : 4.3
+API Level             : 18
+Genymotion Version    : 2.7.2
+Screen Width          : 2560
+Screen Height         : 1600
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 10 - 4.4.4 - API 19 - 2560x1600
+UUID                  : 42b60b69-bd60-4c3d-912c-4073d854573d
+Description           : Google Nexus 10 (10.055", 2560x1600, XHDPI) AOSP4.4.4 API 19
+Android Version       : 4.4.4
+API Level             : 19
+Genymotion Version    : 2.7.2
+Screen Width          : 2560
+Screen Height         : 1600
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 10 - 5.0.0 - API 21 - 2560x1600
+UUID                  : f1a8a52b-5b1c-4d24-806f-3fbe838eb32d
+Description           : Google Nexus 10 (10.055", 2560x1600, XHDPI) AOSP5.0.0 API 21
+Android Version       : 5.0.0
+API Level             : 21
+Genymotion Version    : 2.7.2
+Screen Width          : 2560
+Screen Height         : 1600
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 10 - 5.1.0 - API 22 - 2560x1600
+UUID                  : c6e1222c-993e-4bf2-840f-4795792f2143
+Description           : Google Nexus 10 (10.055", 2560x1600, XHDPI) AOSP5.1.0 API 22
+Android Version       : 5.1.0
+API Level             : 22
+Genymotion Version    : 2.7.2
+Screen Width          : 2560
+Screen Height         : 1600
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 4 - 4.1.1 - API 16 - 768x1280
+UUID                  : 556bf95a-7cd7-4f5d-af2e-cd79ee271f5b
+Description           : Google Nexus 4 (4.7", 768x1280, XHDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 768
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 4 - 4.2.2 - API 17 - 768x1280
+UUID                  : ead8fc7f-df52-4b0b-a78d-8021a321a038
+Description           : Google Nexus 4 (4.7", 768x1280, XHDPI) AOSP4.2.2 API 17
+Android Version       : 4.2.2
+API Level             : 17
+Genymotion Version    : 2.7.2
+Screen Width          : 768
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 4 - 4.3 - API 18 - 768x1280
+UUID                  : ec8546af-7300-4f35-a88b-559f19672ff8
+Description           : Google Nexus 4 (4.7", 768x1280, XHDPI) AOSP4.3 API 18
+Android Version       : 4.3
+API Level             : 18
+Genymotion Version    : 2.7.2
+Screen Width          : 768
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 4 - 4.4.4 - API 19 - 768x1280
+UUID                  : 31f96174-9148-4bd3-84dd-0819681936bf
+Description           : Google Nexus 4 (4.7", 768x1280, XHDPI) AOSP4.4.4 API 19
+Android Version       : 4.4.4
+API Level             : 19
+Genymotion Version    : 2.7.2
+Screen Width          : 768
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 4 - 5.0.0 - API 21 - 768x1280
+UUID                  : d39db595-6ae3-4ae9-bddc-fcaf85cf1d83
+Description           : Google Nexus 4 (4.7", 768x1280, XHDPI) AOSP5.0.0 API 21
+Android Version       : 5.0.0
+API Level             : 21
+Genymotion Version    : 2.7.2
+Screen Width          : 768
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 4 - 5.1.0 - API 22 - 768x1280
+UUID                  : 55fddf0b-0e56-4742-8791-106ad93c01ff
+Description           : Google Nexus 4 (4.7", 768x1280, XHDPI) AOSP5.1.0 API 22
+Android Version       : 5.1.0
+API Level             : 22
+Genymotion Version    : 2.7.2
+Screen Width          : 768
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 5 - 4.4.4 - API 19 - 1080x1920
+UUID                  : b4f164b3-277e-4efe-9fcd-38f6d847ddd7
+Description           : Google Nexus 5 (4.95", 1080x1920, XXHDPI) AOSP4.4.4 API 19
+Android Version       : 4.4.4
+API Level             : 19
+Genymotion Version    : 2.7.2
+Screen Width          : 1080
+Screen Height         : 1920
+Screen Density        : xxhdpi
+Screen DPI            : 480
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 5 - 5.0.0 - API 21 - 1080x1920
+UUID                  : 9c667b7a-1a43-4d4f-8b5b-2dc8c7888d21
+Description           : Google Nexus 5 (4.95", 1080x1920, XXHDPI) AOSP5.0.0 API 21
+Android Version       : 5.0.0
+API Level             : 21
+Genymotion Version    : 2.7.2
+Screen Width          : 1080
+Screen Height         : 1920
+Screen Density        : xxhdpi
+Screen DPI            : 480
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 5 - 5.1.0 - API 22 - 1080x1920
+UUID                  : e70d130c-955c-4f25-a451-0ed2e57a24ac
+Description           : Google Nexus 5 (4.95", 1080x1920, XXHDPI) AOSP5.1.0 API 22
+Android Version       : 5.1.0
+API Level             : 22
+Genymotion Version    : 2.7.2
+Screen Width          : 1080
+Screen Height         : 1920
+Screen Density        : xxhdpi
+Screen DPI            : 480
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 5 - 6.0.0 - API 23 - 1080x1920
+UUID                  : 9fc4abf6-4a22-443d-b045-d3ef2bd96974
+Description           : Google Nexus 5 (4.95", 1080x1920, XXHDPI) AOSP6.0.0 API 23
+Android Version       : 6.0.0
+API Level             : 23
+Genymotion Version    : 2.7.2
+Screen Width          : 1080
+Screen Height         : 1920
+Screen Density        : xxhdpi
+Screen DPI            : 480
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 5X - 6.0.0 - API 23 - 1080x1920
+UUID                  : c660c8c2-df75-44ac-9a81-e08f468f1c10
+Description           : Google Nexus 5X (5.2", 1080x1920, 420DPI) AOSP6.0.0 API 23
+Android Version       : 6.0.0
+API Level             : 23
+Genymotion Version    : 2.7.2
+Screen Width          : 1080
+Screen Height         : 1920
+Screen Density        : 420dpi
+Screen DPI            : 420
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 6 - 5.0.0 - API 21 - 1440x2560
+UUID                  : b7347f03-2a75-45a1-a8a1-42324198125e
+Description           : Google Nexus 6 (5.96", 1440x2560, 560DPI) AOSP5.0.0 API 21
+Android Version       : 5.0.0
+API Level             : 21
+Genymotion Version    : 2.7.2
+Screen Width          : 1440
+Screen Height         : 2560
+Screen Density        : 560dpi
+Screen DPI            : 560
+Nb CPU                : 4
+RAM                   : 3072
+Internal Storage      : 65536
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 6 - 5.1.0 - API 22 - 1440x2560
+UUID                  : a9af19b8-8df9-41a8-81ac-a6294648ecc1
+Description           : Google Nexus 6 (5.96", 1440x2560, 560DPI) AOSP5.1.0 API 22
+Android Version       : 5.1.0
+API Level             : 22
+Genymotion Version    : 2.7.2
+Screen Width          : 1440
+Screen Height         : 2560
+Screen Density        : 560dpi
+Screen DPI            : 560
+Nb CPU                : 4
+RAM                   : 3072
+Internal Storage      : 65536
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 6 - 6.0.0 - API 23 - 1440x2560
+UUID                  : da95cf5c-7652-46ce-a946-906d93fc2eca
+Description           : Google Nexus 6 (5.96", 1440x2560, 560DPI) AOSP6.0.0 API 23
+Android Version       : 6.0.0
+API Level             : 23
+Genymotion Version    : 2.7.2
+Screen Width          : 1440
+Screen Height         : 2560
+Screen Density        : 560dpi
+Screen DPI            : 560
+Nb CPU                : 4
+RAM                   : 3072
+Internal Storage      : 65536
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 6P - 6.0.0 - API 23 - 1440x2560
+UUID                  : 46028057-70cd-49f5-9c91-d7413b4e4400
+Description           : Google Nexus 6P (5.7", 1440x2560, 560DPI) AOSP6.0.0 API 23
+Android Version       : 6.0.0
+API Level             : 23
+Genymotion Version    : 2.7.2
+Screen Width          : 1440
+Screen Height         : 2560
+Screen Density        : 560dpi
+Screen DPI            : 560
+Nb CPU                : 4
+RAM                   : 3072
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 7 - 4.1.1 - API 16 - 800x1280
+UUID                  : cc7008dc-2aef-4c2f-a1cd-72aa69375057
+Description           : Google Nexus 7 (7", 800x1280, TVDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 800
+Screen Height         : 1280
+Screen Density        : tvdpi
+Screen DPI            : 213
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 7 - 4.2.2 - API 17 - 800x1280
+UUID                  : 96be90a0-13d7-4270-82f5-5fb54e652994
+Description           : Google Nexus 7 (7", 800x1280, TVDPI) AOSP4.2.2 API 17
+Android Version       : 4.2.2
+API Level             : 17
+Genymotion Version    : 2.7.2
+Screen Width          : 800
+Screen Height         : 1280
+Screen Density        : tvdpi
+Screen DPI            : 213
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 7 - 4.3 - API 18 - 800x1280
+UUID                  : f4b92009-2b9a-413f-8688-0fd522d7f11e
+Description           : Google Nexus 7 (7", 800x1280, TVDPI) AOSP4.3 API 18
+Android Version       : 4.3
+API Level             : 18
+Genymotion Version    : 2.7.2
+Screen Width          : 800
+Screen Height         : 1280
+Screen Density        : tvdpi
+Screen DPI            : 213
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 7 - 4.4.4 - API 19 - 800x1280
+UUID                  : e38a1ec9-5fbf-481c-9103-d1782ea9f1d7
+Description           : Google Nexus 7 (7", 800x1280, TVDPI) AOSP4.4.4 API 19
+Android Version       : 4.4.4
+API Level             : 19
+Genymotion Version    : 2.7.2
+Screen Width          : 800
+Screen Height         : 1280
+Screen Density        : tvdpi
+Screen DPI            : 213
+Nb CPU                : 4
+RAM                   : 1024
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 7 - 5.0.0 - API 21 - 800x1280
+UUID                  : 57110e09-24f5-4e32-b4ea-a549e95970bf
+Description           : Google Nexus 7 (7", 800x1280, TVDPI) AOSP5.0.0 API 21
+Android Version       : 5.0.0
+API Level             : 21
+Genymotion Version    : 2.7.2
+Screen Width          : 800
+Screen Height         : 1280
+Screen Density        : tvdpi
+Screen DPI            : 213
+Nb CPU                : 4
+RAM                   : 1024
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 7 - 5.1.0 - API 22 - 800x1280
+UUID                  : 89be4b14-a11a-471c-a3a5-2a9237a80007
+Description           : Google Nexus 7 (7", 800x1280, TVDPI) AOSP5.1.0 API 22
+Android Version       : 5.1.0
+API Level             : 22
+Genymotion Version    : 2.7.2
+Screen Width          : 800
+Screen Height         : 1280
+Screen Density        : tvdpi
+Screen DPI            : 213
+Nb CPU                : 4
+RAM                   : 1024
+Internal Storage      : 8192
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 7 2013 - 4.3 - API 18 - 1200x1920
+UUID                  : e8ab0a63-5533-4040-944a-947a99d7f087
+Description           : Google Nexus 7 2013 (7.02", 1200x1920, XHDPI) AOSP4.3 API 18
+Android Version       : 4.3
+API Level             : 18
+Genymotion Version    : 2.7.2
+Screen Width          : 1200
+Screen Height         : 1920
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 7 2013 - 4.4.4 - API 19 - 1200x1920
+UUID                  : 3ca42f69-ff08-42b3-8d78-2ccb617e55f2
+Description           : Google Nexus 7 2013 (7.02", 1200x1920, XHDPI) AOSP4.4.4 API 19
+Android Version       : 4.4.4
+API Level             : 19
+Genymotion Version    : 2.7.2
+Screen Width          : 1200
+Screen Height         : 1920
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 7 2013 - 5.0.0 - API 21 - 1200x1920
+UUID                  : 8e33f3db-68d9-4700-95dd-850e23d634ed
+Description           : Google Nexus 7 2013 (7.02", 1200x1920, XHDPI) AOSP5.0.0 API 21
+Android Version       : 5.0.0
+API Level             : 21
+Genymotion Version    : 2.7.2
+Screen Width          : 1200
+Screen Height         : 1920
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 7 2013 - 5.1.0 - API 22 - 1200x1920
+UUID                  : 8616f424-caac-4dc9-864d-d1381b1b6360
+Description           : Google Nexus 7 2013 (7.02", 1200x1920, XHDPI) AOSP5.1.0 API 22
+Android Version       : 5.1.0
+API Level             : 22
+Genymotion Version    : 2.7.2
+Screen Width          : 1200
+Screen Height         : 1920
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 7 2013 - 6.0.0 - API 23 - 1200x1920
+UUID                  : 1f173992-993a-4241-9db8-f68685c7f404
+Description           : Google Nexus 7 2013 (7.02", 1200x1920, XHDPI) AOSP6.0.0 API 23
+Android Version       : 6.0.0
+API Level             : 23
+Genymotion Version    : 2.7.2
+Screen Width          : 1200
+Screen Height         : 1920
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 9 - 5.0.0 - API 21 - 1536x2048
+UUID                  : 4f50f627-a4c8-4368-bc5c-91467a9ceb24
+Description           : Google Nexus 9 (8.9", 1536x2048, XHDPI) AOSP5.0.0 API 21
+Android Version       : 5.0.0
+API Level             : 21
+Genymotion Version    : 2.7.2
+Screen Width          : 1536
+Screen Height         : 2048
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 2
+RAM                   : 2048
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 9 - 5.1.0 - API 22 - 1536x2048
+UUID                  : 8bdeb4ca-7114-4920-903d-b33085b38eaa
+Description           : Google Nexus 9 (8.9", 1536x2048, XHDPI) AOSP5.1.0 API 22
+Android Version       : 5.1.0
+API Level             : 22
+Genymotion Version    : 2.7.2
+Screen Width          : 1536
+Screen Height         : 2048
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 2
+RAM                   : 2048
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus 9 - 6.0.0 - API 23 - 1536x2048
+UUID                  : 445e774c-a9e9-49bd-84b9-673c4e9f7163
+Description           : Google Nexus 9 (8.9", 1536x2048, XHDPI) AOSP6.0.0 API 23
+Android Version       : 6.0.0
+API Level             : 23
+Genymotion Version    : 2.7.2
+Screen Width          : 1536
+Screen Height         : 2048
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 2
+RAM                   : 2048
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus One - 2.3.7 - API 10 - 480x800
+UUID                  : 44487e48-925b-450a-9150-59375e4fad0e
+Description           : Google Nexus One (3.7", 480x800, HDPI) AOSP2.3.7 API 10
+Android Version       : 2.3.7
+API Level             : 10
+Genymotion Version    : 2.7.2
+Screen Width          : 480
+Screen Height         : 800
+Screen Density        : hdpi
+Screen DPI            : 240
+Nb CPU                : 1
+RAM                   : 512
+Internal Storage      : 4096
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus S - 2.3.7 - API 10 - 480x800
+UUID                  : 7befe2a5-a07a-41d1-a4e4-28a4d7635049
+Description           : Google Nexus S (4", 480x800, HDPI) AOSP2.3.7 API 10
+Android Version       : 2.3.7
+API Level             : 10
+Genymotion Version    : 2.7.2
+Screen Width          : 480
+Screen Height         : 800
+Screen Density        : hdpi
+Screen DPI            : 240
+Nb CPU                : 1
+RAM                   : 512
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Google Nexus S - 4.1.1 - API 16 - 480x800
+UUID                  : d563a4a0-6103-4ef4-b88d-03c1f2f3d137
+Description           : Google Nexus S (4", 480x800, HDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 480
+Screen Height         : 800
+Screen Density        : hdpi
+Screen DPI            : 240
+Nb CPU                : 1
+RAM                   : 512
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : HTC Evo - 4.1.1 - API 16 - 720x1280
+UUID                  : fd0bf66c-7ce7-4f41-b3c4-960b4fae5f8f
+Description           : HTC Evo (4.7", 720x1280, XHDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : HTC Evo - 4.2.2 - API 17 - 720x1280
+UUID                  : 14642a6e-91da-4bc2-b938-691c9c6061e6
+Description           : HTC Evo (4.7", 720x1280, XHDPI) AOSP4.2.2 API 17
+Android Version       : 4.2.2
+API Level             : 17
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : HTC Evo - 4.3 - API 18 - 720x1280
+UUID                  : c0a4665b-b158-48b6-b429-55cc24711929
+Description           : HTC Evo (4.7", 720x1280, XHDPI) AOSP4.3 API 18
+Android Version       : 4.3
+API Level             : 18
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : HTC One - 4.2.2 - API 17 - 1080x1920
+UUID                  : 79dd7037-d8e0-485d-a24f-541a8fd40779
+Description           : HTC One (4.7", 1080x1920, XXHDPI) AOSP4.2.2 API 17
+Android Version       : 4.2.2
+API Level             : 17
+Genymotion Version    : 2.7.2
+Screen Width          : 1080
+Screen Height         : 1920
+Screen Density        : xxhdpi
+Screen DPI            : 480
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : HTC One - 4.3 - API 18 - 1080x1920
+UUID                  : d635a9ec-1112-480a-a682-ff58e6c1d0a1
+Description           : HTC One (4.7", 1080x1920, XXHDPI) AOSP4.3 API 18
+Android Version       : 4.3
+API Level             : 18
+Genymotion Version    : 2.7.2
+Screen Width          : 1080
+Screen Height         : 1920
+Screen Density        : xxhdpi
+Screen DPI            : 480
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : HTC One - 4.4.4 - API 19 - 1080x1920
+UUID                  : 2f71872c-8bbc-4260-a284-7c6f50ede169
+Description           : HTC One (4.7", 1080x1920, XXHDPI) AOSP4.4.4 API 19
+Android Version       : 4.4.4
+API Level             : 19
+Genymotion Version    : 2.7.2
+Screen Width          : 1080
+Screen Height         : 1920
+Screen Density        : xxhdpi
+Screen DPI            : 480
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : HTC One X - 4.1.1 - API 16 - 720x1280
+UUID                  : 44e36b5d-6095-47f5-b88a-78a92c46d7e1
+Description           : HTC One X (4.7", 720x1280, XHDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : HTC One X - 4.2.2 - API 17 - 720x1280
+UUID                  : e0682687-b424-4596-ba2b-c84c1850437f
+Description           : HTC One X (4.7", 720x1280, XHDPI) AOSP4.2.2 API 17
+Android Version       : 4.2.2
+API Level             : 17
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : HTC One XL - 4.1.1 - API 16 - 720x1280
+UUID                  : 9b445c9d-fee4-4b50-81d5-5176c172f375
+Description           : HTC One XL (4.7", 720x1280, XHDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : HTC One XL - 4.2.2 - API 17 - 720x1280
+UUID                  : 6193bdeb-d588-46cd-a877-e7e1ec2ec0c7
+Description           : HTC One XL (4.7", 720x1280, XHDPI) AOSP4.2.2 API 17
+Android Version       : 4.2.2
+API Level             : 17
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : LG Optimus L3 II - 4.1.1 - API 16 - 240x320
+UUID                  : 009b20b4-1127-4838-a793-ccd715cc7ee6
+Description           : LG Optimus L3 II (3.2", 240x320, LDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 240
+Screen Height         : 320
+Screen Density        : ldpi
+Screen DPI            : 120
+Nb CPU                : 1
+RAM                   : 512
+Internal Storage      : 4096
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Motorola Droid Razr - 2.3.7 - API 10 - 540x960
+UUID                  : b22f6a31-3b10-4301-9546-c6c563cc805d
+Description           : Motorola Droid Razr (4.3", 540x960, HDPI) AOSP2.3.7 API 10
+Android Version       : 2.3.7
+API Level             : 10
+Genymotion Version    : 2.7.2
+Screen Width          : 540
+Screen Height         : 960
+Screen Density        : hdpi
+Screen DPI            : 240
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Motorola Droid Razr - 4.1.1 - API 16 - 540x960
+UUID                  : 2b6bf1e4-121b-4fe4-bf90-b397616cdb9c
+Description           : Motorola Droid Razr (4.3", 540x960, HDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 540
+Screen Height         : 960
+Screen Density        : hdpi
+Screen DPI            : 240
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Motorola Moto X - 4.2.2 - API 17 - 720x1280
+UUID                  : 61f2562d-2d6d-473c-9f68-c89f8e0d13f7
+Description           : Motorola Moto X (4.7", 720x1280, XHDPI) AOSP4.2.2 API 17
+Android Version       : 4.2.2
+API Level             : 17
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Motorola Moto X - 4.3 - API 18 - 720x1280
+UUID                  : de170d0f-cd98-422d-9d6c-d7ea00631eb3
+Description           : Motorola Moto X (4.7", 720x1280, XHDPI) AOSP4.3 API 18
+Android Version       : 4.3
+API Level             : 18
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Motorola Moto X - 4.4.4 - API 19 - 720x1280
+UUID                  : 47f68b9a-08cb-4b55-b0a7-a6664d118829
+Description           : Motorola Moto X (4.7", 720x1280, XHDPI) AOSP4.4.4 API 19
+Android Version       : 4.4.4
+API Level             : 19
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 2
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Motorola Xoom - 4.1.1 - API 16 - 1280x800
+UUID                  : 5e941bb1-84a3-4a66-be34-03be1356cbda
+Description           : Motorola Xoom (10.1", 1280x800, MDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 1280
+Screen Height         : 800
+Screen Density        : mdpi
+Screen DPI            : 160
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy Note - 2.3.7 - API 10 - 800x1280
+UUID                  : 487885d6-a778-4f53-bbda-c93a98ec7de3
+Description           : Samsung Galaxy Note (5.3", 800x1280, XHDPI) AOSP2.3.7 API 10
+Android Version       : 2.3.7
+API Level             : 10
+Genymotion Version    : 2.7.2
+Screen Width          : 800
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy Note - 4.1.1 - API 16 - 800x1280
+UUID                  : 521c9957-55ef-4a18-8ffe-71803e051fec
+Description           : Samsung Galaxy Note (5.3", 800x1280, XHDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 800
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy Note 2 - 4.1.1 - API 16 - 720x1280
+UUID                  : 198ec9c7-8139-4e84-a567-0af4e0d7e481
+Description           : Samsung Galaxy Note 2 (5.5", 720x1280, XHDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy Note 2 - 4.2.2 - API 17 - 720x1280
+UUID                  : dcf348ed-58a9-4d39-b01b-cf89957b3faa
+Description           : Samsung Galaxy Note 2 (5.5", 720x1280, XHDPI) AOSP4.2.2 API 17
+Android Version       : 4.2.2
+API Level             : 17
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy Note 2 - 4.3 - API 18 - 720x1280
+UUID                  : 7ada4662-3bac-4f59-bbcc-c71aa47299d2
+Description           : Samsung Galaxy Note 2 (5.5", 720x1280, XHDPI) AOSP4.3 API 18
+Android Version       : 4.3
+API Level             : 18
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy Note 3 - 4.3 - API 18 - 1080x1920
+UUID                  : ec578eef-2b01-485a-a7f3-f93fc15c3f0d
+Description           : Samsung Galaxy Note 3 (5.7", 1080x1920, XXHDPI) AOSP4.3 API 18
+Android Version       : 4.3
+API Level             : 18
+Genymotion Version    : 2.7.2
+Screen Width          : 1080
+Screen Height         : 1920
+Screen Density        : xxhdpi
+Screen DPI            : 480
+Nb CPU                : 1
+RAM                   : 3072
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy Note 3 - 4.4.4 - API 19 - 1080x1920
+UUID                  : c1fb5618-68de-47c6-9659-e28a30de156c
+Description           : Samsung Galaxy Note 3 (5.7", 1080x1920, XXHDPI) AOSP4.4.4 API 19
+Android Version       : 4.4.4
+API Level             : 19
+Genymotion Version    : 2.7.2
+Screen Width          : 1080
+Screen Height         : 1920
+Screen Density        : xxhdpi
+Screen DPI            : 480
+Nb CPU                : 4
+RAM                   : 3072
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy S2 - 2.3.7 - API 10 - 480x800
+UUID                  : ab6e7f98-4ba1-4d08-a6b6-1de46aedc6f6
+Description           : Samsung Galaxy S2 (4.3", 480x800, HDPI) AOSP2.3.7 API 10
+Android Version       : 2.3.7
+API Level             : 10
+Genymotion Version    : 2.7.2
+Screen Width          : 480
+Screen Height         : 800
+Screen Density        : hdpi
+Screen DPI            : 240
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy S2 - 4.1.1 - API 16 - 480x800
+UUID                  : a90a996d-2274-41bb-b46f-c72d53c9d629
+Description           : Samsung Galaxy S2 (4.3", 480x800, HDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 480
+Screen Height         : 800
+Screen Density        : hdpi
+Screen DPI            : 240
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy S3 - 4.1.1 - API 16 - 720x1280
+UUID                  : 9ff25c02-bf89-46e0-94b5-a341a9bdcf5b
+Description           : Samsung Galaxy S3 (4.8", 720x1280, XHDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy S3 - 4.2.2 - API 17 - 720x1280
+UUID                  : 3fe94fad-eb02-48a7-8028-533fb7694ed6
+Description           : Samsung Galaxy S3 (4.8", 720x1280, XHDPI) AOSP4.2.2 API 17
+Android Version       : 4.2.2
+API Level             : 17
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy S3 - 4.3 - API 18 - 720x1280
+UUID                  : 11aeb6e7-0bfe-48c9-815b-4a5f8e8edda4
+Description           : Samsung Galaxy S3 (4.8", 720x1280, XHDPI) AOSP4.3 API 18
+Android Version       : 4.3
+API Level             : 18
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy S4 - 4.2.2 - API 17 - 1080x1920
+UUID                  : d3f5d408-2cc6-44b0-8050-4bf2d9f87efd
+Description           : Samsung Galaxy S4 (5.0", 1080x1920, XXHDPI) AOSP4.2.2 API 17
+Android Version       : 4.2.2
+API Level             : 17
+Genymotion Version    : 2.7.2
+Screen Width          : 1080
+Screen Height         : 1920
+Screen Density        : xxhdpi
+Screen DPI            : 480
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy S4 - 4.3 - API 18 - 1080x1920
+UUID                  : 13f6d416-6164-4f0b-b8b1-df75c1717386
+Description           : Samsung Galaxy S4 (5.0", 1080x1920, XXHDPI) AOSP4.3 API 18
+Android Version       : 4.3
+API Level             : 18
+Genymotion Version    : 2.7.2
+Screen Width          : 1080
+Screen Height         : 1920
+Screen Density        : xxhdpi
+Screen DPI            : 480
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy S4 - 4.4.4 - API 19 - 1080x1920
+UUID                  : 15edb3ca-3bf4-4778-a85c-c04a7d005715
+Description           : Samsung Galaxy S4 (5.0", 1080x1920, XXHDPI) AOSP4.4.4 API 19
+Android Version       : 4.4.4
+API Level             : 19
+Genymotion Version    : 2.7.2
+Screen Width          : 1080
+Screen Height         : 1920
+Screen Density        : xxhdpi
+Screen DPI            : 480
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy S5 - 4.4.4 - API 19 - 1080x1920
+UUID                  : 4a7cf261-fa75-4a18-a564-718ebefba390
+Description           : Samsung Galaxy S5 (5.1", 1080x1920, XXHDPI) AOSP4.4.4 API 19
+Android Version       : 4.4.4
+API Level             : 19
+Genymotion Version    : 2.7.2
+Screen Width          : 1080
+Screen Height         : 1920
+Screen Density        : xxhdpi
+Screen DPI            : 480
+Nb CPU                : 4
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560
+UUID                  : 7fad4b10-140c-4227-84d0-22dd88c8f8b1
+Description           : Samsung Galaxy S6 (5.1", 1440x2560, XXXHDPI) AOSP5.0.0 API 21
+Android Version       : 5.0.0
+API Level             : 21
+Genymotion Version    : 2.7.2
+Screen Width          : 1440
+Screen Height         : 2560
+Screen Density        : xxxhdpi
+Screen DPI            : 640
+Nb CPU                : 4
+RAM                   : 3072
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy S6 - 5.1.0 - API 22 - 1440x2560
+UUID                  : 865d12b1-d839-49a7-90cf-175cab4ba51f
+Description           : Samsung Galaxy S6 (5.1", 1440x2560, XXXHDPI) AOSP5.1.0 API 22
+Android Version       : 5.1.0
+API Level             : 22
+Genymotion Version    : 2.7.2
+Screen Width          : 1440
+Screen Height         : 2560
+Screen Density        : xxxhdpi
+Screen DPI            : 640
+Nb CPU                : 4
+RAM                   : 3072
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Samsung Galaxy S6 - 6.0.0 - API 23 - 1440x2560
+UUID                  : 082aa083-451d-4d4d-a680-b784d2012b94
+Description           : Samsung Galaxy S6 (5.1", 1440x2560, XXXHDPI) AOSP6.0.0 API 23
+Android Version       : 6.0.0
+API Level             : 23
+Genymotion Version    : 2.7.2
+Screen Width          : 1440
+Screen Height         : 2560
+Screen Density        : xxxhdpi
+Screen DPI            : 640
+Nb CPU                : 4
+RAM                   : 3072
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Sony Xperia S - 2.3.7 - API 10 - 720x1280
+UUID                  : f6c19d0d-274f-4d4a-9e3c-a3f3716afe2c
+Description           : Sony Xperia S (4.3", 720x1280, XHDPI) AOSP2.3.7 API 10
+Android Version       : 2.3.7
+API Level             : 10
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Sony Xperia S - 4.1.1 - API 16 - 720x1280
+UUID                  : d63f25dc-7b42-497a-9ecf-3f9277ea6edb
+Description           : Sony Xperia S (4.3", 720x1280, XHDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 720
+Screen Height         : 1280
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 32768
+Telephony             : true
+Nav Bar Visible       : false
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Sony Xperia Tablet S - 4.1.1 - API 16 - 1280x800
+UUID                  : 236758ce-f514-4362-a09c-93a049184375
+Description           : Sony Xperia Tablet S (9.4", 1280x800, MDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 1280
+Screen Height         : 800
+Screen Density        : mdpi
+Screen DPI            : 160
+Nb CPU                : 1
+RAM                   : 1024
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Sony Xperia Tablet Z - 4.1.1 - API 16 - 1920x1200
+UUID                  : 2f393570-3517-4cb4-a181-7d5c9ec65a90
+Description           : Sony Xperia Tablet Z (10.1", 1920x1200, XHDPI) AOSP4.1.1 API 16
+Android Version       : 4.1.1
+API Level             : 16
+Genymotion Version    : 2.7.2
+Screen Width          : 1920
+Screen Height         : 1200
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 65536
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Sony Xperia Tablet Z - 4.2.2 - API 17 - 1920x1200
+UUID                  : dc90aac8-5806-4b27-bd33-a1c038f79cd1
+Description           : Sony Xperia Tablet Z (10.1", 1920x1200, XHDPI) AOSP4.2.2 API 17
+Android Version       : 4.2.2
+API Level             : 17
+Genymotion Version    : 2.7.2
+Screen Width          : 1920
+Screen Height         : 1200
+Screen Density        : xhdpi
+Screen DPI            : 320
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 65536
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Sony Xperia Z - 4.2.2 - API 17 - 1080x1920
+UUID                  : a4a62d7f-4293-4bdd-8e8d-8e25b80046f1
+Description           : Sony Xperia Z (5", 1080x1920, XXHDPI) AOSP4.2.2 API 17
+Android Version       : 4.2.2
+API Level             : 17
+Genymotion Version    : 2.7.2
+Screen Width          : 1080
+Screen Height         : 1920
+Screen Density        : xxhdpi
+Screen DPI            : 480
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+
+Name                  : Sony Xperia Z - 4.3 - API 18 - 1080x1920
+UUID                  : 8a807602-5d00-407d-b7d8-87e1726aca8f
+Description           : Sony Xperia Z (5", 1080x1920, XXHDPI) AOSP4.3 API 18
+Android Version       : 4.3
+API Level             : 18
+Genymotion Version    : 2.7.2
+Screen Width          : 1080
+Screen Height         : 1920
+Screen Density        : xxhdpi
+Screen DPI            : 480
+Nb CPU                : 1
+RAM                   : 2048
+Internal Storage      : 16384
+Telephony             : true
+Nav Bar Visible       : true
+Virtual Keyboard      : true
+Source                : genymotion
+Shared by             : 
+

@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Cake.Genymotion.Tests.Fixtures.License;
+﻿using Cake.Genymotion.Tests.Fixtures.License;
 using FluentAssertions;
-using NSubstitute.Core;
 using Xunit;
 
 namespace Cake.Genymotion.Tests.Unit.License

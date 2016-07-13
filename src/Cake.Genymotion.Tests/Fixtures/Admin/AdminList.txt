@@ -1,0 +1,9 @@
+﻿ State  |   IP Address    |                UUID                |      Name
+--------+-----------------+------------------------------------+---------------
+    Off |         0.0.0.0 |cba69bf3-1658-4027-80e7-df5c37a35db5| Google Nexus 6 - 6.0.0 - API 23 - 1440x2560
+    Off |         0.0.0.0 |ec69cd47-6574-48b9-908d-e634b6c1727f| Google Nexus 5 - 5.1.0 - API 22 - 1080x1920
+    Off |         0.0.0.0 |49b23f0a-f628-4b39-9c5b-f5b9ff628281| Google Nexus 5 - 5.0.0 - API 21 - 1080x1920
+    Off |         0.0.0.0 |9b22de69-a18e-4c9b-9d38-c4e181314360| Google Nexus 4 - 4.4.4 - API 19 - 768x1280
+    Off |         0.0.0.0 |e111eb03-bc51-4189-a6f4-853a1bece527| Google Nexus 4 - 4.3 - API 18 - 768x1280
+    Off |         0.0.0.0 |2e0e5e8b-c5dc-4328-990c-c6f0cc6988d8| Google Nexus 4 - 4.2.2 - API 17 - 768x1280
+    Off |         0.0.0.0 |bf73467f-3bdc-40b9-8e8f-30f7ba7da740| Google Nexus 4 - 4.1.1 - API 16 - 768x1280

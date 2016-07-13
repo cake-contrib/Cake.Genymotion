@@ -1,6 +1,5 @@
 ﻿namespace Cake.Genymotion.Admin
 {
-
     /// <code>
     /// Name                  : Sony Xperia Z - 4.3 - API 18 - 1080x1920
     /// UUID                  : 8a807602-5d00-407d-b7d8-87e1726aca8f
@@ -20,7 +19,8 @@
     /// Virtual Keyboard      : true
     /// Source                : genymotion
     /// Shared by             :
-    /// </code>>
+    /// </code>
+    /// >
     public sealed class GenymotionTemplateResult
     {
         public string Name { get; set; }

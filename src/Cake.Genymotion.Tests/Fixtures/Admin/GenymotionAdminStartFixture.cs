@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Cake.Genymotion.Admin;
-using Cake.Genymotion.License;
+﻿using Cake.Genymotion.Admin;
 
 namespace Cake.Genymotion.Tests.Fixtures.Admin
 {

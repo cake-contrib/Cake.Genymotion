@@ -9,7 +9,8 @@ namespace Cake.Genymotion.Admin
     {
         private readonly ICakeEnvironment _environment;
 
-        public GenymotionAdminCreateRunner(IFileSystem fileSystem, ICakeEnvironment environment, IProcessRunner processRunner, IToolLocator tools) : base(fileSystem, environment, processRunner, tools)
+        public GenymotionAdminCreateRunner(IFileSystem fileSystem, ICakeEnvironment environment,
+            IProcessRunner processRunner, IToolLocator tools) : base(fileSystem, environment, processRunner, tools)
         {
             _environment = environment;
         }
@@ -18,7 +19,5 @@ namespace Cake.Genymotion.Admin
         {
             throw new NotImplementedException();
         }
-
     }
 }
-

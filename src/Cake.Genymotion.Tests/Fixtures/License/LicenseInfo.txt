@@ -1,0 +1,4 @@
+﻿License Type             : Indie
+Activated Workstations   : 2
+License Server           : off
+Expires on               : June 21, 2017 09:59:59

@@ -4,8 +4,8 @@ using Xunit;
 
 namespace Cake.Genymotion.Tests.Unit.License
 {
-	public class GenymotionLicenseInfoTests
-	{
+    public class GenymotionLicenseInfoTests
+    {
         [Theory]
         [InlineData(true, "license info --verbose")]
         [InlineData(false, "license info")]
@@ -36,4 +36,3 @@ namespace Cake.Genymotion.Tests.Unit.License
         }
     }
 }
-

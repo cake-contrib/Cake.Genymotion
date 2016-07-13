@@ -1,3 +1,3 @@
 ﻿using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("Cake.AppleSimulator.Tests")]
+[assembly: InternalsVisibleTo("Cake.Genymotion.Tests")]

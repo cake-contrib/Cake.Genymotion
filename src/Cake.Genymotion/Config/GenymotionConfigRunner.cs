@@ -9,7 +9,8 @@ namespace Cake.Genymotion.Config
     {
         private readonly ICakeEnvironment _environment;
 
-        public GenymotionConfigRunner(IFileSystem fileSystem, ICakeEnvironment environment, IProcessRunner processRunner, IToolLocator tools) : base(fileSystem, environment, processRunner, tools)
+        public GenymotionConfigRunner(IFileSystem fileSystem, ICakeEnvironment environment, IProcessRunner processRunner,
+            IToolLocator tools) : base(fileSystem, environment, processRunner, tools)
         {
             _environment = environment;
         }
@@ -40,4 +41,3 @@ namespace Cake.Genymotion.Config
         }
     }
 }
-

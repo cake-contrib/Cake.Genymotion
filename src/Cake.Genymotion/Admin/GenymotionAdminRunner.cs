@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using Cake.Core;
 using Cake.Core.IO;
 using Cake.Core.Tooling;
+using Sprache;
 
 namespace Cake.Genymotion.Admin
 {
-
     public sealed class GenymotionAdminRunner : GenymotionTool<GenymotionAdminSettings>
     {
         private readonly ICakeEnvironment _environment;
@@ -43,10 +42,10 @@ namespace Cake.Genymotion.Admin
             throw new NotImplementedException();
         }
 
-        public IEnumerable<GenymotionListResult> List()
+        public IEnumerable<GenymotionListResult> List(GenymotionAdminSettings settings)
         {
-            throw new NotImplementedException();
-
+            var stdOutput = RunAndRedirectStandardOutput(settings, CreateArgumentBuilder(settings));
+            return AdminListGrammar.Simulators.Parse(stdOutput);
         }
 
 
@@ -74,7 +73,5 @@ namespace Cake.Genymotion.Admin
         {
             throw new NotImplementedException();
         }
-
     }
 }
-

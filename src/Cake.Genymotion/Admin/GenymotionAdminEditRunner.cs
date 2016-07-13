@@ -5,12 +5,12 @@ using Cake.Core.Tooling;
 
 namespace Cake.Genymotion.Admin
 {
-
     public sealed class GenymotionAdminEditRunner : GenymotionTool<GenymotionEditSettings>
     {
         private readonly ICakeEnvironment _environment;
 
-        public GenymotionAdminEditRunner(IFileSystem fileSystem, ICakeEnvironment environment, IProcessRunner processRunner, IToolLocator tools) : base(fileSystem, environment, processRunner, tools)
+        public GenymotionAdminEditRunner(IFileSystem fileSystem, ICakeEnvironment environment,
+            IProcessRunner processRunner, IToolLocator tools) : base(fileSystem, environment, processRunner, tools)
         {
             _environment = environment;
         }
@@ -19,7 +19,5 @@ namespace Cake.Genymotion.Admin
         {
             throw new NotImplementedException();
         }
-
     }
 }
-

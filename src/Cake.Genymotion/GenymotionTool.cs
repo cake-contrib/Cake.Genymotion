@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 using Cake.Core;
 using Cake.Core.IO;
 using Cake.Core.Tooling;
@@ -65,7 +66,7 @@ namespace Cake.Genymotion
                 builder.Append("--verbose");
             }
 
-            if (settings.Timeout != 0)
+            if (settings.Timeout.HasValue)
             {
                 builder.Append($"--timeout {settings.Timeout}");
             }
@@ -82,12 +83,11 @@ namespace Cake.Genymotion
         protected string RunAndRedirectStandardOutput(TSettings settings, ProcessArgumentBuilder arguments)
         {
             var stdOutput = string.Empty;
-
+            
             Run(settings, arguments,
                 new ProcessSettings
                 {
                     RedirectStandardOutput = true,
-                    Timeout = TimeSpan.FromSeconds(settings.Timeout).Milliseconds
                 },
                 process => stdOutput = string.Join(Environment.NewLine, process.GetStandardOutput()));
 

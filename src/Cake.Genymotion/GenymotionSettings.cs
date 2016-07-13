@@ -15,6 +15,6 @@ namespace Cake.Genymotion
         /// <summary>
         ///     Gets or sets a value indicating the maximum amount of time (in seconds) the tool should run for before timing out.
         /// </summary>
-        public int Timeout { get; set; }
+        public int? Timeout { get; set; }
     }
 }

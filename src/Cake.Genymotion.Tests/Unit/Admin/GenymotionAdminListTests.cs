@@ -1,4 +1,5 @@
-﻿using Cake.Genymotion.Tests.Fixtures.License;
+﻿using Cake.Genymotion.Tests.Fixtures.Admin;
+using Cake.Genymotion.Tests.Fixtures.License;
 using FluentAssertions;
 using Xunit;
 
@@ -12,7 +13,7 @@ namespace Cake.Genymotion.Tests.Unit.Admin
         public void Should_Add_Verbose_Flag_To_Arguments_If_Set(bool verbose, string expected)
         {
             // Given
-            var fixture = new GenymotionLicenseInfoFixture();
+            var fixture = new GenymotionAdminListFixture();
             fixture.Settings.Verbose = verbose;
 
             // When
@@ -26,7 +27,7 @@ namespace Cake.Genymotion.Tests.Unit.Admin
         public void Should_Add_Admin_List_Argument()
         {
             // Given
-            var fixture = new GenymotionLicenseInfoFixture();
+            var fixture = new GenymotionAdminListFixture();
 
             // When
             var result = fixture.Run();

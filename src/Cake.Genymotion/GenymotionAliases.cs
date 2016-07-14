@@ -35,10 +35,10 @@ namespace Cake.Genymotion
         }
 
         [CakeMethodAlias]
-        public static List<GenymotionAdminListResult> ListGenymotionSimulators(this ICakeContext context, GenymotionAdminSettings settings = null)
+        public static IReadOnlyList<GenymotionAdminListResult> ListGenymotionSimulators(this ICakeContext context, GenymotionAdminSettings settings = null)
         {
             var runner = new GenymotionAdminRunner(context.FileSystem, context.Environment, context.ProcessRunner, context.Tools, settings ?? new GenymotionAdminSettings());
-            return runner.List().ToList();
+            return runner.List().ToList().AsReadOnly();
         }
 
         [CakeMethodAlias]

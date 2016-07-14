@@ -4,12 +4,38 @@ using Cake.Genymotion.Tests.Fixtures.Admin;
 using Cake.Testing;
 using FluentAssertions;
 using System.Diagnostics;
+using System.Linq;
 using Xunit;
 
 namespace Cake.Genymotion.Tests.Unit.Admin
 {
     public class GenymotionAdminListTests
     {
+        [Fact]
+        public void Should_Return_Correct_Simulator_Details()
+        {
+            // Given
+            var fixture = new GenymotionAdminListFixture();
+
+            // When
+            var result = fixture.Run();
+
+            // Then
+            fixture.ToolResult.Should().HaveCount(7);
+
+            fixture.ToolResult.First().State.Should().Be(GenymotionSimulatorState.On);
+            fixture.ToolResult.First().IpAddress.Should().Be("123.123.123.123");
+            fixture.ToolResult.First().UUID.Should().Be("cba69bf3-1658-4027-80e7-df5c37a35db5");
+            fixture.ToolResult.First().Name.Should().Be("Google Nexus 6 - 6.0.0 - API 23 - 1440x2560");
+
+            fixture.ToolResult.Skip(1).First().State.Should().Be(GenymotionSimulatorState.Off);
+
+            fixture.ToolResult.Last().State.Should().Be(GenymotionSimulatorState.Aborted);
+            fixture.ToolResult.Last().IpAddress.Should().Be("0.0.0.0");
+            fixture.ToolResult.Last().UUID.Should().Be("bf73467f-3bdc-40b9-8e8f-30f7ba7da740");
+            fixture.ToolResult.Last().Name.Should().Be("Google Nexus 4 - 4.1.1 - API 16 - 768x1280");
+        }
+
         [Fact]
         public void Should_Add_Admin_List_Argument()
         {

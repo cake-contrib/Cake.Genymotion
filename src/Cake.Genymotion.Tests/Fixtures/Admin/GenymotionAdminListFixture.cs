@@ -1,5 +1,8 @@
-﻿using Cake.Genymotion.Admin;
+﻿using System.Collections;
+using System.Collections.Generic;
+using Cake.Genymotion.Admin;
 using System.IO;
+using Cake.Testing.Fixtures;
 
 namespace Cake.Genymotion.Tests.Fixtures.Admin
 {
@@ -11,10 +14,12 @@ namespace Cake.Genymotion.Tests.Fixtures.Admin
             ProcessRunner.Process.SetStandardOutput(standardOutput);
         }
 
+        public IEnumerable<GenymotionAdminListResult> ToolResult { get; set; }
+
         protected override void RunTool()
         {
             var adminRunner = new GenymotionAdminRunner(FileSystem, Environment, ProcessRunner, Tools, Settings);
-            adminRunner.List();
+            ToolResult = adminRunner.List();
         }
     }
 }

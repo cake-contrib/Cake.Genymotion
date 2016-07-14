@@ -72,6 +72,7 @@
     <Compile Include="Admin\GenymotionAdminSettings.cs" />
     <Compile Include="License\GenymotionLicenseSettings.cs" />
     <Compile Include="License\GenymotionLicenseType.cs" />
+    <Compile Include="ProcessArgumentBuilderExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="GenymotionSettings.cs" />
     <Compile Include="GenymotionReturnCode.cs" />

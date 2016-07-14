@@ -24,17 +24,17 @@ namespace Cake.Genymotion.License
             throw new NotImplementedException();
         }
 
-        public GenymotionReturnCode Info()
+        public void Info()
         {
             throw new NotImplementedException();
         }
 
-        public GenymotionReturnCode Register(string licenseKey)
+        public void Register(string licenseKey)
         {
             throw new NotImplementedException();
         }
 
-        public GenymotionReturnCode Validity()
+        public void Validity()
         {
             throw new NotImplementedException();
         }

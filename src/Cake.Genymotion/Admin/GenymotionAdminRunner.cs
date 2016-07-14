@@ -22,10 +22,10 @@ namespace Cake.Genymotion.Admin
             throw new NotImplementedException();
         }
 
-        public GenymotionReturnCode Delete(string deviceIdentifier)
+        public void Delete(string deviceIdentifier)
         {
             var arguments = CreateArgumentBuilder(Settings).Append("admin delete").AppendQuotedUnlessNullWhitespaceOrEmpty(deviceIdentifier);
-            return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
+            Run(Settings, arguments);
         }
 
         public GenymotionDetailsResult Details(string deviceIdentifier)
@@ -38,10 +38,10 @@ namespace Cake.Genymotion.Admin
             throw new NotImplementedException();
         }
 
-        public GenymotionReturnCode FactoryReset(string deviceIdentifier)
+        public void FactoryReset(string deviceIdentifier)
         {
             var arguments = CreateArgumentBuilder(Settings).Append("admin factoryreset").AppendQuotedUnlessNullWhitespaceOrEmpty(deviceIdentifier);
-            return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
+            Run(Settings, arguments);
         }
 
         public IEnumerable<GenymotionAdminListResult> List()
@@ -53,33 +53,33 @@ namespace Cake.Genymotion.Admin
             return GenymotionAdminListGrammar.Simulators.Parse(stdOutput);
         }
 
-        public GenymotionReturnCode LogZip(string deviceIdentifier, string logArchivePath)
+        public void LogZip(string deviceIdentifier, string logArchivePath)
         {
             throw new NotImplementedException();
         }
 
-        public GenymotionReturnCode Reset(string deviceIdentifier)
+        public void Reset(string deviceIdentifier)
         {
             var arguments = CreateArgumentBuilder(Settings).Append("admin reset").AppendQuotedUnlessNullWhitespaceOrEmpty(deviceIdentifier);
-            return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
+            Run(Settings, arguments);
         }
 
-        public GenymotionReturnCode Start(string deviceIdentifier)
+        public void Start(string deviceIdentifier)
         {
             var arguments = CreateArgumentBuilder(Settings).Append("admin start").AppendQuotedUnlessNullWhitespaceOrEmpty(deviceIdentifier);
-            return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
+            Run(Settings, arguments);
         }
 
-        public GenymotionReturnCode Stop(string deviceIdentifier)
+        public void Stop(string deviceIdentifier)
         {
             var arguments = CreateArgumentBuilder(Settings).Append("admin stop").AppendQuotedUnlessNullWhitespaceOrEmpty(deviceIdentifier);
-            return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
+            Run(Settings, arguments);
         }
 
-        public GenymotionReturnCode StopAll()
+        public void StopAll()
         {
             var arguments = CreateArgumentBuilder(Settings).Append("admin stopall");
-            return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
+            Run(Settings, arguments);
         }
 
         public IEnumerable<GenymotionTemplateResult> Templates(bool forceRefresh = false)

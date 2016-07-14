@@ -15,27 +15,27 @@ namespace Cake.Genymotion.Config
             _environment = environment;
         }
 
-        public GenymotionReturnCode ClearCache()
+        public void ClearCache()
         {
             throw new NotImplementedException();
         }
 
-        public GenymotionReturnCode Config()
+        public void Config()
         {
             throw new NotImplementedException();
         }
 
-        public GenymotionReturnCode Print()
+        public void Print()
         {
             throw new NotImplementedException();
         }
 
-        public GenymotionReturnCode Reset()
+        public void Reset()
         {
             throw new NotImplementedException();
         }
 
-        public GenymotionReturnCode SignOut()
+        public void SignOut()
         {
             throw new NotImplementedException();
         }

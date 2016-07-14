@@ -15,44 +15,44 @@ namespace Cake.Genymotion.Device
             _environment = environment;
         }
 
-        public GenymotionReturnCode AdbConnect(string deviceIdentifier)
+        public void AdbConnect(string deviceIdentifier)
         {
             var arguments = CreateArgumentBuilder(Settings).Append("device adbconnect").AppendQuotedUnlessNullWhitespaceOrEmpty(deviceIdentifier);
-            return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
+            Run(Settings, arguments);
         }
 
-        public GenymotionReturnCode AdbDisconnect(string deviceIdentifier)
+        public void AdbDisconnect(string deviceIdentifier)
         {
             var arguments = CreateArgumentBuilder(Settings).Append("device adbdisconnect").AppendQuotedUnlessNullWhitespaceOrEmpty(deviceIdentifier);
-            return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
+            Run(Settings, arguments);
         }
 
-        public GenymotionReturnCode Flash(string archivePath)
+        public void Flash(string archivePath)
         {
             throw new NotImplementedException();
         }
 
-        public GenymotionReturnCode Install(string apkFilePath)
+        public void Install(string apkFilePath)
         {
             throw new NotImplementedException();
         }
 
-        public GenymotionReturnCode LogCatClear()
+        public void LogCatClear()
         {
             throw new NotImplementedException();
         }
 
-        public GenymotionReturnCode LogCatDump(string destinationFilePath)
+        public void LogCatDump(string destinationFilePath)
         {
             throw new NotImplementedException();
         }
 
-        public GenymotionReturnCode Pull(string sourcePath, string destinationDirectoryPath)
+        public void Pull(string sourcePath, string destinationDirectoryPath)
         {
             throw new NotImplementedException();
         }
 
-        public GenymotionReturnCode Push(string sourcePath, string destinationDirectoryPath)
+        public void Push(string sourcePath, string destinationDirectoryPath)
         {
             throw new NotImplementedException();
         }

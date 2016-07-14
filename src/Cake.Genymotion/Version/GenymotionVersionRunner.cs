@@ -15,7 +15,7 @@ namespace Cake.Genymotion.Version
             _environment = environment;
         }
 
-        public GenymotionVersion Version()
+        public void Version()
         {
             throw new NotImplementedException();
         }

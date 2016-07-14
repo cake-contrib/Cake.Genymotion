@@ -9,11 +9,12 @@ namespace Cake.Genymotion.Tests.Unit.Admin
     public class GenymotionAdminStopTests
     {
         [Theory]
-        [InlineData("8c983780-1339-4162-a0f7-da19f1ded7ee", "admin stop 8c983780-1339-4162-a0f7-da19f1ded7ee")]
-        public void Should_Add_Admin_Stop_Argument_With_DeviceIdentifier(string deviceId, string expected)
+        [InlineData("8c983780-1339-4162-a0f7-da19f1ded7ee", "admin stop \"8c983780-1339-4162-a0f7-da19f1ded7ee\"")]
+        public void Should_Add_Admin_Stop_Argument_With_DeviceIdentifier(string deviceIdentifier, string expected)
         {
             // Given
             var fixture = new GenymotionAdminStopFixture();
+            fixture.DeviceIdentifier = deviceIdentifier;
 
             // When
             var result = fixture.Run();
@@ -24,7 +25,7 @@ namespace Cake.Genymotion.Tests.Unit.Admin
 
         [Theory]
         [InlineData(10, "--timeout 10 admin stop")]
-        [InlineData(null, "admin start")]
+        [InlineData(null, "admin stop")]
         public void Should_Add_Timeout_Flag_To_Arguments_If_Set(int? timeout, string expected)
         {
             // Given

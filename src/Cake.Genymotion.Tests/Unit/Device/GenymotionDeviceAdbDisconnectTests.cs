@@ -10,11 +10,12 @@ namespace Cake.Genymotion.Tests.Unit.Device
     public class GenymotionDeviceAdbDisconnectTests
     {
         [Theory]
-        [InlineData("8c983780-1339-4162-a0f7-da19f1ded7ee", "device adbdisconnect 8c983780-1339-4162-a0f7-da19f1ded7ee")]
-        public void Should_Add_Device_AdbDisconnect_Argument_With_DeviceIdentifier(string deviceId, string expected)
+        [InlineData("8c983780-1339-4162-a0f7-da19f1ded7ee", "device adbdisconnect \"8c983780-1339-4162-a0f7-da19f1ded7ee\"")]
+        public void Should_Add_Device_AdbDisconnect_Argument_With_DeviceIdentifier(string deviceIdentifier, string expected)
         {
             // Given
             var fixture = new GenymotionDeviceAdbDisconnectFixture();
+            fixture.DeviceIdentifier = deviceIdentifier;
 
             // When
             var result = fixture.Run();
@@ -25,7 +26,7 @@ namespace Cake.Genymotion.Tests.Unit.Device
 
         [Theory]
         [InlineData(10, "--timeout 10 device adbdisconnect")]
-        [InlineData(null, "device adbconnect")]
+        [InlineData(null, "device adbdisconnect")]
         public void Should_Add_Timeout_Flag_To_Arguments_If_Set(int? timeout, string expected)
         {
             // Given
@@ -41,7 +42,7 @@ namespace Cake.Genymotion.Tests.Unit.Device
 
         [Theory]
         [InlineData(true, "--verbose device adbdisconnect")]
-        [InlineData(false, "device adbconnect")]
+        [InlineData(false, "device adbdisconnect")]
         public void Should_Add_Verbose_Flag_To_Arguments_If_Set(bool verbose, string expected)
         {
             // Given

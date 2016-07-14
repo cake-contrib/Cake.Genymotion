@@ -9,12 +9,12 @@ namespace Cake.Genymotion.Tests.Unit.Admin
     public class GenymotionAdminResetTests
     {
         [Theory]
-        [InlineData("8c983780-1339-4162-a0f7-da19f1ded7ee", "admin reset 8c983780-1339-4162-a0f7-da19f1ded7ee")]
-        public void Should_Add_Admin_Reset_Argument_With_DeviceIdentifier(string deviceId, string expected)
+        [InlineData("8c983780-1339-4162-a0f7-da19f1ded7ee", "admin reset \"8c983780-1339-4162-a0f7-da19f1ded7ee\"")]
+        public void Should_Add_Admin_Reset_Argument_With_DeviceIdentifier(string deviceIdentifier, string expected)
         {
             // Given
             var fixture = new GenymotionAdminResetFixture();
-
+            fixture.DeviceIdentifier = deviceIdentifier;
             // When
             var result = fixture.Run();
 
@@ -40,7 +40,7 @@ namespace Cake.Genymotion.Tests.Unit.Admin
 
         [Theory]
         [InlineData(true, "--verbose admin reset")]
-        [InlineData(false, "admin teset")]
+        [InlineData(false, "admin reset")]
         public void Should_Add_Verbose_Flag_To_Arguments_If_Set(bool verbose, string expected)
         {
             // Given

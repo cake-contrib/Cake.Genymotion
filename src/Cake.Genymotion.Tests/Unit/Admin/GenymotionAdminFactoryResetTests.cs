@@ -9,11 +9,13 @@ namespace Cake.Genymotion.Tests.Unit.Admin
     public class GenymotionAdminFactoryResetTests
     {
         [Theory]
-        [InlineData("8c983780-1339-4162-a0f7-da19f1ded7ee", "admin factoryreset 8c983780-1339-4162-a0f7-da19f1ded7ee")]
-        public void Should_Add_Admin_FactoryReset_Argument_With_DeviceIdentifier(string deviceId, string expected)
+        [InlineData("8c983780-1339-4162-a0f7-da19f1ded7ee", "admin factoryreset \"8c983780-1339-4162-a0f7-da19f1ded7ee\"")]
+        public void Should_Add_Admin_FactoryReset_Argument_With_DeviceIdentifier(string deviceIdentifier,
+            string expected)
         {
             // Given
             var fixture = new GenymotionAdminFactoryResetFixture();
+            fixture.DeviceIdentifier = deviceIdentifier;
 
             // When
             var result = fixture.Run();
@@ -90,7 +92,7 @@ namespace Cake.Genymotion.Tests.Unit.Admin
             // When
             fixture.Invoking(x => x.Run())
 
-            // Then
+                // Then
                 .ShouldThrow<CakeException>()
                 .WithMessage("Genymotion: Could not locate executable.");
         }
@@ -105,7 +107,7 @@ namespace Cake.Genymotion.Tests.Unit.Admin
             // When
             fixture.Invoking(x => x.Run())
 
-            // Then
+                // Then
                 .ShouldThrow<CakeException>()
                 .WithMessage("Genymotion: Process returned an error (exit code 1).");
         }
@@ -120,14 +122,16 @@ namespace Cake.Genymotion.Tests.Unit.Admin
             // When
             fixture.Invoking(x => x.Run())
 
-            // Then
+                // Then
                 .ShouldThrow<CakeException>()
                 .WithMessage("Genymotion: Process was not started.");
         }
 
         [Theory]
-        [InlineData(@"c:/Program Files/Genymobile/Genymotion/gmtool.exe", @"c:/Program Files/Genymobile/Genymotion/gmtool.exe")]
-        [InlineData("/Applications/Genymotion.app/Contents/MacOS/gmtool", "/Applications/Genymotion.app/Contents/MacOS/gmtool")]
+        [InlineData(@"c:/Program Files/Genymobile/Genymotion/gmtool.exe",
+            @"c:/Program Files/Genymobile/Genymotion/gmtool.exe")]
+        [InlineData("/Applications/Genymotion.app/Contents/MacOS/gmtool",
+            "/Applications/Genymotion.app/Contents/MacOS/gmtool")]
         public void Should_Use_Genymotion_Runner_From_Tool_Path_If_Provided(string toolPath, string expected)
         {
             // Given

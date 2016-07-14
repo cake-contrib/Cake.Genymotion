@@ -10,11 +10,12 @@ namespace Cake.Genymotion.Tests.Unit.Device
     public class GenymotionDeviceAdbConnectTests
     {
         [Theory]
-        [InlineData("8c983780-1339-4162-a0f7-da19f1ded7ee", "device adbconnect 8c983780-1339-4162-a0f7-da19f1ded7ee")]
-        public void Should_Add_Device_AdbConnect_Argument_With_DeviceIdentifier(string deviceId, string expected)
+        [InlineData("8c983780-1339-4162-a0f7-da19f1ded7ee", "device adbconnect \"8c983780-1339-4162-a0f7-da19f1ded7ee\"")]
+        public void Should_Add_Device_AdbConnect_Argument_With_DeviceIdentifier(string deviceIdentifier, string expected)
         {
             // Given
             var fixture = new GenymotionDeviceAdbConnectFixture();
+            fixture.DeviceIdentifier = deviceIdentifier;
 
             // When
             var result = fixture.Run();

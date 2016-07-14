@@ -17,13 +17,13 @@ namespace Cake.Genymotion.Device
 
         public GenymotionReturnCode AdbConnect(string deviceIdentifier)
         {
-            var arguments = CreateArgumentBuilder(Settings).Append("device adbconnect").AppendQuoted(deviceIdentifier);
+            var arguments = CreateArgumentBuilder(Settings).Append("device adbconnect").AppendQuotedUnlessNullWhitespaceOrEmpty(deviceIdentifier);
             return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
         }
 
         public GenymotionReturnCode AdbDisconnect(string deviceIdentifier)
         {
-            var arguments = CreateArgumentBuilder(Settings).Append("device disconnect").AppendQuoted(deviceIdentifier);
+            var arguments = CreateArgumentBuilder(Settings).Append("device adbdisconnect").AppendQuotedUnlessNullWhitespaceOrEmpty(deviceIdentifier);
             return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
         }
 

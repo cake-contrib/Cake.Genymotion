@@ -24,7 +24,7 @@ namespace Cake.Genymotion.Admin
 
         public GenymotionReturnCode Delete(string deviceIdentifier)
         {
-            var arguments = CreateArgumentBuilder(Settings).Append("admin delete").AppendQuoted(deviceIdentifier);
+            var arguments = CreateArgumentBuilder(Settings).Append("admin delete").AppendQuotedUnlessNullWhitespaceOrEmpty(deviceIdentifier);
             return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
         }
 
@@ -40,7 +40,7 @@ namespace Cake.Genymotion.Admin
 
         public GenymotionReturnCode FactoryReset(string deviceIdentifier)
         {
-            var arguments = CreateArgumentBuilder(Settings).Append("admin factoryreset").AppendQuoted(deviceIdentifier);
+            var arguments = CreateArgumentBuilder(Settings).Append("admin factoryreset").AppendQuotedUnlessNullWhitespaceOrEmpty(deviceIdentifier);
             return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
         }
 
@@ -60,19 +60,19 @@ namespace Cake.Genymotion.Admin
 
         public GenymotionReturnCode Reset(string deviceIdentifier)
         {
-            var arguments = CreateArgumentBuilder(Settings).Append("admin reset").AppendQuoted(deviceIdentifier);
+            var arguments = CreateArgumentBuilder(Settings).Append("admin reset").AppendQuotedUnlessNullWhitespaceOrEmpty(deviceIdentifier);
             return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
         }
 
         public GenymotionReturnCode Start(string deviceIdentifier)
         {
-            var arguments = CreateArgumentBuilder(Settings).Append("admin start").AppendQuoted(deviceIdentifier);
+            var arguments = CreateArgumentBuilder(Settings).Append("admin start").AppendQuotedUnlessNullWhitespaceOrEmpty(deviceIdentifier);
             return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
         }
 
         public GenymotionReturnCode Stop(string deviceIdentifier)
         {
-            var arguments = CreateArgumentBuilder(Settings).Append("admin stop").AppendQuoted(deviceIdentifier);
+            var arguments = CreateArgumentBuilder(Settings).Append("admin stop").AppendQuotedUnlessNullWhitespaceOrEmpty(deviceIdentifier);
             return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
         }
 

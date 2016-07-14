@@ -23,23 +23,23 @@
     /// >
     public sealed class GenymotionTemplateResult
     {
-        public string Name { get; set; }
-        public string UUID { get; set; }
-        public string Description { get; set; }
         public string AndroidVersion { get; set; }
         public int APILevel { get; set; }
+        public string Description { get; set; }
         public string GenymotionVersion { get; set; }
-        public int ScreenWidth { get; set; }
-        public int ScreenHeight { get; set; }
-        public AndroidScreenDensity ScreenDensity { get; set; }
-        public int ScreenDPI { get; set; }
+        public int InternalStorage { get; set; }
+        public string Name { get; set; }
+        public bool NavBarVisible { get; set; }
         public int NbCPU { get; set; }
         public int RAM { get; set; }
-        public int InternalStorage { get; set; }
-        public bool Telephony { get; set; }
-        public bool NavBarVisible { get; set; }
-        public bool VirtualKeyboard { get; set; }
-        public string Source { get; set; }
+        public AndroidScreenDensity ScreenDensity { get; set; }
+        public int ScreenDPI { get; set; }
+        public int ScreenHeight { get; set; }
+        public int ScreenWidth { get; set; }
         public string SharedBy { get; set; }
+        public string Source { get; set; }
+        public bool Telephony { get; set; }
+        public string UUID { get; set; }
+        public bool VirtualKeyboard { get; set; }
     }
 }

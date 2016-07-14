@@ -77,7 +77,7 @@
     <Compile Include="GenymotionReturnCode.cs" />
     <Compile Include="Admin\GenymotionSimulatorState.cs" />
     <Compile Include="Admin\GenymotionDetailsResult.cs" />
-    <Compile Include="Admin\GenymotionListResult.cs" />
+    <Compile Include="Admin\GenymotionAdminListResult.cs" />
     <Compile Include="Admin\GenymotionAdminRunner.cs" />
     <Compile Include="GenymotionTool.cs" />
     <Compile Include="Version\GenymotionVersion.cs" />

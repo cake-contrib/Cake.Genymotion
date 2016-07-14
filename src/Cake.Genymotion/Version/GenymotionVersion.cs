@@ -6,7 +6,7 @@
     /// </summary>
     public sealed class GenymotionVersion
     {
-        public string Version { get; set; }
         public string Revision { get; set; }
+        public string Version { get; set; }
     }
 }

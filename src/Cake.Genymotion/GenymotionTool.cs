@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading;
-using Cake.Core;
+﻿using Cake.Core;
 using Cake.Core.IO;
 using Cake.Core.Tooling;
+using System;
+using System.Collections.Generic;
 
 namespace Cake.Genymotion
 {
@@ -28,28 +27,6 @@ namespace Cake.Genymotion
             IToolLocator tools)
             : base(fileSystem, environment, processRunner, tools)
         {
-        }
-
-        /// <summary>
-        ///     Gets the name of the tool.
-        /// </summary>
-        /// <returns>The name of the tool.</returns>
-        protected override string GetToolName()
-        {
-            return "Genymotion";
-        }
-
-        /// <summary>
-        ///     Gets the possible names of the tool executable.
-        /// </summary>
-        /// <returns>The tool executable name.</returns>
-        protected override IEnumerable<string> GetToolExecutableNames()
-        {
-            return new[]
-            {
-                "gmtool",
-                "gmtool.exe"
-            };
         }
 
         /// <summary>
@@ -79,6 +56,27 @@ namespace Cake.Genymotion
             return builder;
         }
 
+        /// <summary>
+        ///     Gets the possible names of the tool executable.
+        /// </summary>
+        /// <returns>The tool executable name.</returns>
+        protected override IEnumerable<string> GetToolExecutableNames()
+        {
+            return new[]
+            {
+                "gmtool",
+                "gmtool.exe"
+            };
+        }
+
+        /// <summary>
+        ///     Gets the name of the tool.
+        /// </summary>
+        /// <returns>The name of the tool.</returns>
+        protected override string GetToolName()
+        {
+            return "Genymotion";
+        }
 
         /// <summary>
         ///     Runs the specified process, using the specified settings/arguments and returns the process StandardOutput.
@@ -88,11 +86,11 @@ namespace Cake.Genymotion
         protected string RunAndRedirectStandardOutput(TSettings settings, ProcessArgumentBuilder arguments)
         {
             var stdOutput = string.Empty;
-            
+
             Run(settings, arguments,
                 new ProcessSettings
                 {
-                    RedirectStandardOutput = true,
+                    RedirectStandardOutput = true
                 },
                 process => stdOutput = string.Join(Environment.NewLine, process.GetStandardOutput()));
 

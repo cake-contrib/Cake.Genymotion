@@ -8,20 +8,17 @@ namespace Cake.Genymotion.Tests.Unit.Admin
 {
     public class GenymotionAdminListTests
     {
-        [Theory]
-        [InlineData(true, "--verbose admin list")]
-        [InlineData(false, "admin list")]
-        public void Should_Add_Verbose_Flag_To_Arguments_If_Set(bool verbose, string expected)
+        [Fact]
+        public void Should_Add_Admin_List_Argument()
         {
             // Given
             var fixture = new GenymotionAdminListFixture();
-            fixture.Settings.Verbose = verbose;
 
             // When
             var result = fixture.Run();
 
             // Then
-            result.Args.Should().Be(expected);
+            result.Args.Should().Be("admin list");
         }
 
         [Theory]
@@ -40,8 +37,24 @@ namespace Cake.Genymotion.Tests.Unit.Admin
             result.Args.Should().Be(expected);
         }
 
+        [Theory]
+        [InlineData(true, "--verbose admin list")]
+        [InlineData(false, "admin list")]
+        public void Should_Add_Verbose_Flag_To_Arguments_If_Set(bool verbose, string expected)
+        {
+            // Given
+            var fixture = new GenymotionAdminListFixture();
+            fixture.Settings.Verbose = verbose;
+
+            // When
+            var result = fixture.Run();
+
+            // Then
+            result.Args.Should().Be(expected);
+        }
+
         [Fact]
-        public void Should_Add_Admin_List_Argument()
+        public void Should_Find_Genymotion_If_Tool_Path_Not_Provided()
         {
             // Given
             var fixture = new GenymotionAdminListFixture();
@@ -50,7 +63,35 @@ namespace Cake.Genymotion.Tests.Unit.Admin
             var result = fixture.Run();
 
             // Then
-            result.Args.Should().Be("admin list");
+            Assert.Equal("/Working/tools/gmtool.exe", result.Path.FullPath);
+        }
+
+        [Fact]
+        public void Should_Set_Working_Directory()
+        {
+            // Given
+            var fixture = new GenymotionAdminListFixture();
+
+            // When
+            var result = fixture.Run();
+
+            // Then
+            Assert.Equal("/Working", result.Process.WorkingDirectory.FullPath);
+        }
+
+        [Fact]
+        public void Should_Throw_If_Genymotion_Was_Not_Found()
+        {
+            // Given
+            var fixture = new GenymotionAdminListFixture();
+            fixture.GivenDefaultToolDoNotExist();
+
+            // When
+            fixture.Invoking(x => x.Run())
+
+            // Then
+                .ShouldThrow<CakeException>()
+                .WithMessage("Genymotion: Could not locate executable.");
         }
 
         [Fact]
@@ -81,6 +122,22 @@ namespace Cake.Genymotion.Tests.Unit.Admin
             // Then
                 .ShouldThrow<CakeException>()
                 .WithMessage("Genymotion: Process was not started.");
+        }
+
+        [Theory]
+        [InlineData(@"c:/Program Files/Genymobile/Genymotion/gmtool.exe", @"c:/Program Files/Genymobile/Genymotion/gmtool.exe")]
+        [InlineData("/Applications/Genymotion.app/Contents/MacOS/gmtool", "/Applications/Genymotion.app/Contents/MacOS/gmtool")]
+        public void Should_Use_Genymotion_Runner_From_Tool_Path_If_Provided(string toolPath, string expected)
+        {
+            // Given
+            var fixture = new GenymotionAdminListFixture { Settings = { ToolPath = toolPath } };
+            fixture.GivenSettingsToolPathExist();
+
+            // When
+            var result = fixture.Run();
+
+            // Then
+            result.Path.FullPath.Should().Be(expected);
         }
     }
 }

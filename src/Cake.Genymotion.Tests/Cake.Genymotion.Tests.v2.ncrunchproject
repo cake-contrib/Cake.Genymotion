@@ -23,15 +23,4 @@
   <UseCPUArchitecture>AutoDetect</UseCPUArchitecture>
   <MSTestThreadApartmentState>STA</MSTestThreadApartmentState>
   <BuildProcessArchitecture>x86</BuildProcessArchitecture>
-  <IgnoredTests>
-    <FixtureTestSelector>
-      <FixtureName>Cake.Genymotion.Tests.Unit.License.GenymotionLicenseCountTests</FixtureName>
-    </FixtureTestSelector>
-    <FixtureTestSelector>
-      <FixtureName>Cake.Genymotion.Tests.Unit.License.GenymotionLicenseInfoTests</FixtureName>
-    </FixtureTestSelector>
-    <FixtureTestSelector>
-      <FixtureName>Cake.Genymotion.Tests.Unit.License.GenymotionLicenseRegisterTests</FixtureName>
-    </FixtureTestSelector>
-  </IgnoredTests>
 </ProjectConfiguration>

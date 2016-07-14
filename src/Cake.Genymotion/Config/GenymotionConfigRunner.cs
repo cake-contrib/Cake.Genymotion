@@ -1,7 +1,7 @@
-﻿using System;
-using Cake.Core;
+﻿using Cake.Core;
 using Cake.Core.IO;
 using Cake.Core.Tooling;
+using System;
 
 namespace Cake.Genymotion.Config
 {
@@ -15,12 +15,12 @@ namespace Cake.Genymotion.Config
             _environment = environment;
         }
 
-        public GenymotionReturnCode Config()
+        public GenymotionReturnCode ClearCache()
         {
             throw new NotImplementedException();
         }
 
-        public GenymotionReturnCode ClearCache()
+        public GenymotionReturnCode Config()
         {
             throw new NotImplementedException();
         }

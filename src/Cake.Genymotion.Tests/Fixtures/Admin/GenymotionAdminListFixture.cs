@@ -1,6 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Cake.Genymotion.Admin;
 using System.IO;
-using Cake.Genymotion.Admin;
 
 namespace Cake.Genymotion.Tests.Fixtures.Admin
 {
@@ -9,7 +8,7 @@ namespace Cake.Genymotion.Tests.Fixtures.Admin
         public GenymotionAdminListFixture()
         {
             var standardOutput = File.ReadAllLines(@"Fixtures\Admin\AdminList.txt");
-            ProcessRunner.Process.SetStandardOutput(standardOutput);                
+            ProcessRunner.Process.SetStandardOutput(standardOutput);
         }
 
         protected override void RunTool()

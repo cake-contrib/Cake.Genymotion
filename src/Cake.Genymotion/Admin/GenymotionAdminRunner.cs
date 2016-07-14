@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using Cake.Core;
+﻿using Cake.Core;
 using Cake.Core.IO;
 using Cake.Core.Tooling;
 using Sprache;
+using System;
+using System.Collections.Generic;
 
 namespace Cake.Genymotion.Admin
 {
@@ -42,14 +42,13 @@ namespace Cake.Genymotion.Admin
             throw new NotImplementedException();
         }
 
-        public IEnumerable<GenymotionListResult> List(GenymotionAdminSettings settings)
+        public IEnumerable<GenymotionAdminListResult> List(GenymotionAdminSettings settings)
         {
             var arguments = CreateArgumentBuilder(settings).Append("admin list");
 
             var stdOutput = RunAndRedirectStandardOutput(settings, arguments);
             return AdminListGrammar.Simulators.Parse(stdOutput);
         }
-
 
         public GenymotionReturnCode LogZip(string deviceName, string logArchivePath)
         {

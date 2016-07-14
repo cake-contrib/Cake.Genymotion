@@ -81,15 +81,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fixtures\Admin\GenymotionAdminFactoryResetFixture.cs" />
     <Compile Include="Fixtures\Admin\GenymotionAdminListFixture.cs" />
+    <Compile Include="Fixtures\Admin\GenymotionAdminResetFixture.cs" />
     <Compile Include="Fixtures\Admin\GenymotionAdminStartFixture.cs" />
+    <Compile Include="Fixtures\Admin\GenymotionAdminStopFixture.cs" />
+    <Compile Include="Fixtures\Device\GenymotionDeviceAdbConnectFixture.cs" />
+    <Compile Include="Fixtures\Device\GenymotionDeviceAdbDisconnectFixture.cs" />
     <Compile Include="Fixtures\GenymotionFixture.cs" />
     <Compile Include="Fixtures\License\GenymotionLicenseCountFixture.cs" />
     <Compile Include="Fixtures\License\GenymotionLicenseInfoFixture.cs" />
     <Compile Include="Fixtures\License\GenymotionLicenseRegisterFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Unit\Admin\GenymotionAdminFactoryResetTests.cs" />
     <Compile Include="Unit\Admin\GenymotionAdminListTests.cs" />
+    <Compile Include="Unit\Admin\GenymotionAdminResetTests.cs" />
     <Compile Include="Unit\Admin\GenymotionAdminStartTests.cs" />
+    <Compile Include="Unit\Admin\GenymotionAdminStopTests.cs" />
+    <Compile Include="Unit\Device\GenymotionDeviceAdbConnectTests.cs" />
+    <Compile Include="Unit\Device\GenymotionDeviceAdbDisconnectTests.cs" />
     <Compile Include="Unit\GenymotionTests.cs" />
     <Compile Include="Unit\License\GenymotionLicenseCountTests.cs" />
     <Compile Include="Unit\License\GenymotionLicenseInfoTests.cs" />
@@ -109,10 +119,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Fixtures\Config\" />
-    <Folder Include="Fixtures\Device\" />
     <Folder Include="Fixtures\Version\" />
     <Folder Include="Unit\Config\" />
-    <Folder Include="Unit\Device\" />
     <Folder Include="Unit\Version\" />
   </ItemGroup>
   <ItemGroup>

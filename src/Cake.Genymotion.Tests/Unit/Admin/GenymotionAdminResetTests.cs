@@ -1,35 +1,34 @@
 ﻿using Cake.Core;
-using Cake.Genymotion.Admin;
 using Cake.Genymotion.Tests.Fixtures.Admin;
 using Cake.Testing;
 using FluentAssertions;
-using System.Diagnostics;
 using Xunit;
 
 namespace Cake.Genymotion.Tests.Unit.Admin
 {
-    public class GenymotionAdminListTests
+    public class GenymotionAdminResetTests
     {
-        [Fact]
-        public void Should_Add_Admin_List_Argument()
+        [Theory]
+        [InlineData("8c983780-1339-4162-a0f7-da19f1ded7ee", "admin reset 8c983780-1339-4162-a0f7-da19f1ded7ee")]
+        public void Should_Add_Admin_Reset_Argument_With_DeviceIdentifier(string deviceId, string expected)
         {
             // Given
-            var fixture = new GenymotionAdminListFixture();
+            var fixture = new GenymotionAdminResetFixture();
 
             // When
             var result = fixture.Run();
 
             // Then
-            result.Args.Should().Be("admin list");
+            result.Args.Should().Be(expected);
         }
 
         [Theory]
-        [InlineData(10, "--timeout 10 admin list")]
-        [InlineData(null, "admin list")]
+        [InlineData(10, "--timeout 10 admin reset")]
+        [InlineData(null, "admin reset")]
         public void Should_Add_Timeout_Flag_To_Arguments_If_Set(int? timeout, string expected)
         {
             // Given
-            var fixture = new GenymotionAdminListFixture();
+            var fixture = new GenymotionAdminResetFixture();
             fixture.Settings.Timeout = timeout;
 
             // When
@@ -40,12 +39,12 @@ namespace Cake.Genymotion.Tests.Unit.Admin
         }
 
         [Theory]
-        [InlineData(true, "--verbose admin list")]
-        [InlineData(false, "admin list")]
+        [InlineData(true, "--verbose admin reset")]
+        [InlineData(false, "admin teset")]
         public void Should_Add_Verbose_Flag_To_Arguments_If_Set(bool verbose, string expected)
         {
             // Given
-            var fixture = new GenymotionAdminListFixture();
+            var fixture = new GenymotionAdminResetFixture();
             fixture.Settings.Verbose = verbose;
 
             // When
@@ -59,7 +58,7 @@ namespace Cake.Genymotion.Tests.Unit.Admin
         public void Should_Find_Genymotion_If_Tool_Path_Not_Provided()
         {
             // Given
-            var fixture = new GenymotionAdminListFixture();
+            var fixture = new GenymotionAdminResetFixture();
 
             // When
             var result = fixture.Run();
@@ -72,7 +71,7 @@ namespace Cake.Genymotion.Tests.Unit.Admin
         public void Should_Set_Working_Directory()
         {
             // Given
-            var fixture = new GenymotionAdminListFixture();
+            var fixture = new GenymotionAdminResetFixture();
 
             // When
             var result = fixture.Run();
@@ -85,7 +84,7 @@ namespace Cake.Genymotion.Tests.Unit.Admin
         public void Should_Throw_If_Genymotion_Was_Not_Found()
         {
             // Given
-            var fixture = new GenymotionAdminListFixture();
+            var fixture = new GenymotionAdminResetFixture();
             fixture.GivenDefaultToolDoNotExist();
 
             // When
@@ -100,7 +99,7 @@ namespace Cake.Genymotion.Tests.Unit.Admin
         public void Should_Throw_If_Has_A_Non_Zero_Exit_Code()
         {
             // Given
-            var fixture = new GenymotionAdminListFixture();
+            var fixture = new GenymotionAdminResetFixture();
             fixture.GivenProcessExitsWithCode(1);
 
             // When
@@ -115,7 +114,7 @@ namespace Cake.Genymotion.Tests.Unit.Admin
         public void Should_Throw_If_Process_Was_Not_Started()
         {
             // Given
-            var fixture = new GenymotionAdminListFixture();
+            var fixture = new GenymotionAdminResetFixture();
             fixture.GivenProcessCannotStart();
 
             // When
@@ -132,7 +131,7 @@ namespace Cake.Genymotion.Tests.Unit.Admin
         public void Should_Use_Genymotion_Runner_From_Tool_Path_If_Provided(string toolPath, string expected)
         {
             // Given
-            var fixture = new GenymotionAdminListFixture { Settings = { ToolPath = toolPath } };
+            var fixture = new GenymotionAdminResetFixture { Settings = { ToolPath = toolPath } };
             fixture.GivenSettingsToolPathExist();
 
             // When

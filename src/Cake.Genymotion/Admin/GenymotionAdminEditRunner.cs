@@ -10,7 +10,7 @@ namespace Cake.Genymotion.Admin
         private readonly ICakeEnvironment _environment;
 
         public GenymotionAdminEditRunner(IFileSystem fileSystem, ICakeEnvironment environment,
-            IProcessRunner processRunner, IToolLocator tools) : base(fileSystem, environment, processRunner, tools)
+            IProcessRunner processRunner, IToolLocator tools, GenymotionEditSettings settings) : base(fileSystem, environment, processRunner, tools, settings)
         {
             _environment = environment;
         }

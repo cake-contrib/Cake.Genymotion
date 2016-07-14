@@ -10,7 +10,7 @@ namespace Cake.Genymotion.Tests.Unit.Admin
     {
         [Theory]
         [InlineData("8c983780-1339-4162-a0f7-da19f1ded7ee", "admin start 8c983780-1339-4162-a0f7-da19f1ded7ee")]
-        public void Should_Add_Admin_Stop_Argument_With_DeviceIdentifier(string deviceId, string expected)
+        public void Should_Add_Admin_Start_Argument_With_DeviceIdentifier(string deviceId, string expected)
         {
             // Given
             var fixture = new GenymotionAdminStartFixture();

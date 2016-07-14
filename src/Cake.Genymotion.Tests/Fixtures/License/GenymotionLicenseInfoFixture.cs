@@ -6,7 +6,7 @@ namespace Cake.Genymotion.Tests.Fixtures.License
     {
         protected override void RunTool()
         {
-            var licenseRunner = new GenymotionLicenseRunner(FileSystem, Environment, ProcessRunner, Tools);
+            var licenseRunner = new GenymotionLicenseRunner(FileSystem, Environment, ProcessRunner, Tools, Settings);
             licenseRunner.Info();
         }
     }

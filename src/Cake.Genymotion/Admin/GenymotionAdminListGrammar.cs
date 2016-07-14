@@ -33,7 +33,7 @@ namespace Cake.Genymotion.Admin
     //     Off |         0.0.0.0 |2e0e5e8b-c5dc-4328-990c-c6f0cc6988d8| Google Nexus 4 - 4.2.2 - API 17 - 768x1280
     //     Off |         0.0.0.0 |bf73467f-3bdc-40b9-8e8f-30f7ba7da740| Google Nexus 4 - 4.1.1 - API 16 - 768x1280
 
-    internal class AdminListGrammar
+    internal class GenymotionAdminListGrammar
     {
 
         private static readonly Parser<string> TableStart = Parse.String("--------+-----------------+------------------------------------+---------------").Text();

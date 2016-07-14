@@ -20,14 +20,18 @@ namespace Cake.Genymotion
         /// <param name="environment">The environment.</param>
         /// <param name="processRunner">The process runner.</param>
         /// <param name="tools">The tool locator.</param>
+        /// <param name="settings">The settings.</param>
         protected GenymotionTool(
             IFileSystem fileSystem,
             ICakeEnvironment environment,
             IProcessRunner processRunner,
-            IToolLocator tools)
+            IToolLocator tools, TSettings settings)
             : base(fileSystem, environment, processRunner, tools)
         {
+            Settings = settings;
         }
+
+        protected TSettings Settings { get; set; }
 
         /// <summary>
         ///     Creates a <see cref="ProcessArgumentBuilder" /> and adds common commandline arguments.

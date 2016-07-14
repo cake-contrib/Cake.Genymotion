@@ -5,24 +5,26 @@ using System;
 
 namespace Cake.Genymotion.Device
 {
-    public sealed class GenymotionConfigRunner : GenymotionTool<GenymotionDeviceSettings>
+    public sealed class GenymotionDeviceRunner : GenymotionTool<GenymotionDeviceSettings>
     {
         private readonly ICakeEnvironment _environment;
 
-        public GenymotionConfigRunner(IFileSystem fileSystem, ICakeEnvironment environment, IProcessRunner processRunner,
-            IToolLocator tools) : base(fileSystem, environment, processRunner, tools)
+        public GenymotionDeviceRunner(IFileSystem fileSystem, ICakeEnvironment environment, IProcessRunner processRunner,
+            IToolLocator tools, GenymotionDeviceSettings settings) : base(fileSystem, environment, processRunner, tools, settings)
         {
             _environment = environment;
         }
 
-        public GenymotionReturnCode AdbConnect()
+        public GenymotionReturnCode AdbConnect(string deviceIdentifier)
         {
-            throw new NotImplementedException();
+            var arguments = CreateArgumentBuilder(Settings).Append("device adbconnect").AppendQuoted(deviceIdentifier);
+            return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
         }
 
-        public GenymotionReturnCode AdbDisconnect()
+        public GenymotionReturnCode AdbDisconnect(string deviceIdentifier)
         {
-            throw new NotImplementedException();
+            var arguments = CreateArgumentBuilder(Settings).Append("device disconnect").AppendQuoted(deviceIdentifier);
+            return (GenymotionReturnCode)RunProcess(Settings, arguments).GetExitCode();
         }
 
         public GenymotionReturnCode Flash(string archivePath)

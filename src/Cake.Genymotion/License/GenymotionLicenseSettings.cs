@@ -1,6 +1,12 @@
-﻿namespace Cake.Genymotion.License
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cake.Genymotion.License
 {
-    public sealed class GenymotionLicenseSettings : GenymotionSettings
+    public class GenymotionLicenseSettings : GenymotionSettings
     {
     }
 }

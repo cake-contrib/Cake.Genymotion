@@ -2,12 +2,12 @@
 
 namespace Cake.Genymotion.Tests.Fixtures.Admin
 {
-    internal sealed class GenymotionAdminStartFixture : GenymotionFixture<GenymotionAdminSettings>
+    internal sealed class GenymotionAdminFactoryResetFixture : GenymotionFixture<GenymotionAdminSettings>
     {
         protected override void RunTool()
         {
             var adminRunner = new GenymotionAdminRunner(FileSystem, Environment, ProcessRunner, Tools, Settings);
-            adminRunner.Start(string.Empty);
+            adminRunner.FactoryReset(string.Empty);
         }
     }
 }

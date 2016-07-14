@@ -1,6 +1,7 @@
 ﻿using Cake.Core;
 using Cake.Core.IO;
 using Cake.Core.Tooling;
+using Cake.Genymotion.Admin;
 using System;
 
 namespace Cake.Genymotion.License
@@ -10,7 +11,7 @@ namespace Cake.Genymotion.License
         private readonly ICakeEnvironment _environment;
 
         public GenymotionLicenseRunner(IFileSystem fileSystem, ICakeEnvironment environment,
-            IProcessRunner processRunner, IToolLocator tools) : base(fileSystem, environment, processRunner, tools)
+            IProcessRunner processRunner, IToolLocator tools, GenymotionLicenseSettings settings) : base(fileSystem, environment, processRunner, tools, settings)
         {
             _environment = environment;
         }

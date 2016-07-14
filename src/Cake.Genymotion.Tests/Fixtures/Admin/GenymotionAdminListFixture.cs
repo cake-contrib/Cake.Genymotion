@@ -13,8 +13,8 @@ namespace Cake.Genymotion.Tests.Fixtures.Admin
 
         protected override void RunTool()
         {
-            var adminRunner = new GenymotionAdminRunner(FileSystem, Environment, ProcessRunner, Tools);
-            adminRunner.List(Settings);
+            var adminRunner = new GenymotionAdminRunner(FileSystem, Environment, ProcessRunner, Tools, Settings);
+            adminRunner.List();
         }
     }
 }

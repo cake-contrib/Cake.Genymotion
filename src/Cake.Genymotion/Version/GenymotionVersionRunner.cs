@@ -10,7 +10,7 @@ namespace Cake.Genymotion.Version
         private readonly ICakeEnvironment _environment;
 
         public GenymotionVersionRunner(IFileSystem fileSystem, ICakeEnvironment environment,
-            IProcessRunner processRunner, IToolLocator tools) : base(fileSystem, environment, processRunner, tools)
+            IProcessRunner processRunner, IToolLocator tools, GenymotionVersionSettings settings) : base(fileSystem, environment, processRunner, tools, settings)
         {
             _environment = environment;
         }

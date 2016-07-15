@@ -81,6 +81,7 @@
     <Compile Include="Admin\GenymotionAdminListResult.cs" />
     <Compile Include="Admin\GenymotionAdminRunner.cs" />
     <Compile Include="GenymotionTool.cs" />
+    <Compile Include="StringExtensions.cs" />
     <Compile Include="Version\GenymotionVersion.cs" />
     <Compile Include="Version\GenymotionVersionSettings.cs" />
     <Compile Include="Version\GenymotionVersionRunner.cs" />

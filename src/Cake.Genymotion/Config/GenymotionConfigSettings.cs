@@ -2,13 +2,15 @@
 {
     public sealed class GenymotionConfigSettings : GenymotionSettings
     {
-        public bool EnableProxy { get; set; }
+        public bool? EnableProxy { get; set; }
 
-        public bool EnableProxyAuth { get; set; }
+        public bool? EnableProxyAuth { get; set; }
 
-        public bool EnableStatistics { get; set; }
+        public bool? EnableStatistics { get; set; }
 
-        public bool LicenseServer { get; set; }
+        public string LogArchivePath { get; set; }
+
+        public bool? EnableLicenseServer { get; set; }
 
         public string LicenseServerAddress { get; set; }
 
@@ -29,7 +31,7 @@
 
         public string SdkPath { get; set; }
 
-        public bool UseCustomSdk { get; set; }
+        public bool? UseCustomSdk { get; set; }
 
         /// <summary>
         ///     Genymotion.com username

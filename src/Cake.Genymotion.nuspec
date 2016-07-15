@@ -11,6 +11,6 @@
     <!-- Portable PCL -->
     <file src="bin/Release/Cake.Genymotion.dll" target="lib/net45" />
     <!-- Source -->
-    <file src="*.cs" target="src" />
+    <file src="**\*.cs" exclude="obj\**" target="src"/>
   </files>
 </package>

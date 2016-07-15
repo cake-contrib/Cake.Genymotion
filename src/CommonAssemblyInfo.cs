@@ -5,9 +5,9 @@
 //------------------------------------------------------------------------------
 using System.Reflection;
 
-[assembly: AssemblyProduct("Geoffrey Huntley")]
+[assembly: AssemblyProduct("Cake.Genymotion")]
 [assembly: AssemblyVersion("0.0.1")]
 [assembly: AssemblyFileVersion("0.0.1")]
-[assembly: AssemblyInformationalVersion("0.0.0.1462364242")]
+[assembly: AssemblyInformationalVersion("0.0.1.1468551396")]
 [assembly: AssemblyCopyright("Copyright (c) Geoffrey Huntley")]
 

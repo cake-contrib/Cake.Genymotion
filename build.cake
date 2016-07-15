@@ -34,7 +34,7 @@ var isRunningOnWindows = IsRunningOnWindows();
 var isRunningOnAppVeyor = AppVeyor.IsRunningOnAppVeyor;
 var isPullRequest = AppVeyor.Environment.PullRequest.IsPullRequest;
 
-var isRepository = StringComparer.OrdinalIgnoreCase.Equals("ghuntley/Cake.AndroidAppManifest", AppVeyor.Environment.Repository.Name);
+var isRepository = StringComparer.OrdinalIgnoreCase.Equals("ghuntley/Cake.Genymotion", AppVeyor.Environment.Repository.Name);
 
 // Parse release notes.
 var releaseNotes = ParseReleaseNotes("RELEASENOTES.md");
@@ -74,7 +74,7 @@ Action<string, string> Package = (nuspec, basePath) =>
         RequireLicenseAcceptance = false,
 
         Version                  = semVersion,
-        Tags                     = new [] {  "Cake", "Script", "Build", "Xamarin", "Android" },
+        Tags                     = new [] {  "Cake", "Script", "Build", "Xamarin", "Android", "Genymotion" },
         ReleaseNotes             = new List<string>(releaseNotes.Notes),
 
         Symbols                  = true,
@@ -87,7 +87,7 @@ Action<string, string> Package = (nuspec, basePath) =>
 Action<string> SourceLink = (solutionFileName) =>
 {
     GitLink("./", new GitLinkSettings() {
-        RepositoryUrl = "https://github.com/ghuntley/Cake.AndroidAppManifest",
+        RepositoryUrl = "https://github.com/ghuntley/Cake.Genymotion",
         SolutionFileName = solutionFileName,
         ErrorsAsWarnings = treatWarningsAsErrors,
     });
@@ -99,7 +99,7 @@ Action<string> SourceLink = (solutionFileName) =>
 ///////////////////////////////////////////////////////////////////////////////
 Setup(() =>
 {
-    Information("Building version {0} of Cake.AndroidAppManifest.", semVersion);
+    Information("Building version {0} of Cake.Genymotion.", semVersion);
 });
 
 Teardown(() =>
@@ -135,7 +135,7 @@ Task("Build")
         SourceLink(solution);
     };
 
-    build("Cake.AndroidAppManifest.sln");
+    build("Cake.Genymotion.sln");
 });
 
 Task("UpdateAppVeyorBuildNumber")
@@ -152,7 +152,7 @@ Task("UpdateAssemblyInfo")
     var file = "./src/CommonAssemblyInfo.cs";
 
     CreateAssemblyInfo(file, new AssemblyInfoSettings {
-        Product = "Cake.AndroidAppManifest",
+        Product = "Cake.Genymotion",
         Version = version,
         FileVersion = version,
         InformationalVersion = semVersion,
@@ -162,14 +162,14 @@ Task("UpdateAssemblyInfo")
 
 Task("RestorePackages").Does (() =>
 {
-    RestorePackages("./src/Cake.AndroidAppManifest.sln");
+    RestorePackages("./src/Cake.Genymotion.sln");
 });
 
 Task("RunUnitTests")
     .IsDependentOn("Build")
     .Does(() =>
 {
-    XUnit2("./src/Cake.AndroidAppManifest.Tests/bin/Release/Cake.AndroidAppManifest.Tests.dll", new XUnit2Settings {
+    XUnit2("./src/Cake.Genymotion.Tests/bin/Release/Cake.Genymotion.Tests.dll", new XUnit2Settings {
         OutputDirectory = artifactDirectory,
         XmlReportV1 = false,
         NoAppDomain = true
@@ -178,10 +178,10 @@ Task("RunUnitTests")
 
 Task("Package")
     .IsDependentOn("Build")
-    .IsDependentOn("RunUnitTests")
+//    .IsDependentOn("RunUnitTests")
     .Does (() =>
 {
-    Package("./src/Cake.AndroidAppManifest.nuspec", "./src/Cake.AndroidAppManifest");
+    Package("./src/Cake.Genymotion.nuspec", "./src/Cake.Genymotion");
 });
 
 Task("Publish")
@@ -199,7 +199,7 @@ Task("Publish")
     }
 
     // only push whitelisted packages.
-    foreach(var package in new[] { "Cake.AndroidAppManifest" })
+    foreach(var package in new[] { "Cake.Genymotion" })
     {
         // only push the package which was created during this build run.
         var packagePath = artifactDirectory + File(string.Concat(package, ".", semVersion, ".nupkg"));

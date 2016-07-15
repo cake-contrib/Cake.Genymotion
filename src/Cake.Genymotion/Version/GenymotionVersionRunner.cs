@@ -17,7 +17,8 @@ namespace Cake.Genymotion.Version
 
         public void Version()
         {
-            throw new NotImplementedException();
+            var arguments = CreateArgumentBuilder(Settings).Append("version");
+            Run(Settings, arguments);
         }
     }
 }

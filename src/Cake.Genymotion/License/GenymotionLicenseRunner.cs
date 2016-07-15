@@ -1,7 +1,6 @@
 ﻿using Cake.Core;
 using Cake.Core.IO;
 using Cake.Core.Tooling;
-using Cake.Genymotion.Admin;
 using System;
 
 namespace Cake.Genymotion.License
@@ -26,17 +25,25 @@ namespace Cake.Genymotion.License
 
         public void Info()
         {
-            throw new NotImplementedException();
+            var arguments = CreateArgumentBuilder(Settings).Append("info");
+            Run(Settings, arguments);
         }
 
         public void Register(string licenseKey)
         {
-            throw new NotImplementedException();
+            if (string.IsNullOrWhiteSpace(licenseKey))
+            {
+                throw new ArgumentException(nameof(licenseKey));
+            }
+
+            var arguments = CreateArgumentBuilder(Settings).Append("register").AppendQuoted(licenseKey);
+            Run(Settings, arguments);
         }
 
         public void Validity()
         {
-            throw new NotImplementedException();
+            var arguments = CreateArgumentBuilder(Settings).Append("validity");
+            Run(Settings, arguments);
         }
     }
 }

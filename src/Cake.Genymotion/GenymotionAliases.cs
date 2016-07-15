@@ -7,6 +7,7 @@ using Cake.Genymotion.License;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Cake.Genymotion.Config;
 
 namespace Cake.Genymotion
 {
@@ -79,6 +80,13 @@ namespace Cake.Genymotion
         {
             var runner = new GenymotionAdminRunner(context.FileSystem, context.Environment, context.ProcessRunner, context.Tools, settings ?? new GenymotionAdminSettings());
             runner.Stop(deviceIdentifier);
+        }
+
+        [CakeMethodAlias]
+        public static void ConfigureGenyMotion(this ICakeContext context, GenymotionConfigSettings settings)
+        {
+            var runner = new GenymotionConfigRunner(context.FileSystem, context.Environment, context.ProcessRunner, context.Tools, settings);
+            runner.Config();
         }
     }
 }

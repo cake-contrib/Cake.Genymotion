@@ -20,7 +20,7 @@ namespace Cake.Genymotion
         /// <param name="deviceIdentifier"></param>
         /// <param name="settings"></param>
         [CakeMethodAlias]
-        public static void AdbConnectGenymotionSimulator(this ICakeContext context, string deviceIdentifier, GenymotionDeviceSettings settings = null)
+        public static void AdbConnectGenymotionSimulator(this ICakeContext context, string deviceIdentifier, GenymotionDeviceSettings settings)
         {
             var runner = new GenymotionDeviceRunner(context.FileSystem, context.Environment, context.ProcessRunner, context.Tools, settings);
             runner.AdbConnect(deviceIdentifier);

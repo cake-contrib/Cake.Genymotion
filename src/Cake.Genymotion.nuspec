@@ -10,6 +10,8 @@
   <files>
     <!-- Portable PCL -->
     <file src="bin/Release/Cake.Genymotion.dll" target="lib/net45" />
+    <file src="bin/Release/Sprache.dll" target="lib/net45" />
+    <file src="bin/Release/NewtonSoft.Json.dll" target="lib/net45" />
     <!-- Source -->
     <file src="**\*.cs" exclude="obj\**" target="src"/>
   </files>

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
-using Cake.Genymotion.Config;
+using Cake.Genymotion;
 
 namespace Cake.Genymotion.Tests.Fixtures.Config
 {

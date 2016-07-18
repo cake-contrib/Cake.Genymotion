@@ -1,4 +1,4 @@
-﻿namespace Cake.Genymotion.License
+﻿namespace Cake.Genymotion
 {
     public enum GenymotionLicenseType
     {

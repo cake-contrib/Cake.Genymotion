@@ -61,6 +61,19 @@ namespace Cake.Genymotion
         }
 
         /// <summary>
+        ///     Gets alternative file paths which the tool may exist in
+        /// </summary>
+        /// <returns>The alternative locations for the tool.</returns>
+        protected override IEnumerable<FilePath> GetAlternativeToolPaths(TSettings settings)
+        {
+            return new FilePath[]
+            {
+                new FilePath(@"C:\Program Files\Genymobile\Genymotion\gmtool.exe"),
+                new FilePath(@"/Applications/Genymotion.app/Contents/MacOS/gmtool")
+            };
+        }
+
+        /// <summary>
         ///     Gets the possible names of the tool executable.
         /// </summary>
         /// <returns>The tool executable name.</returns>

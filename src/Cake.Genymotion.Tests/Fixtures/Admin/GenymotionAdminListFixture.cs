@@ -1,8 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Cake.Genymotion.Admin;
-using System.IO;
+﻿using Cake.Genymotion;
 using Cake.Testing.Fixtures;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
 
 namespace Cake.Genymotion.Tests.Fixtures.Admin
 {

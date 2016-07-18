@@ -186,16 +186,16 @@ Task("Package")
 
 Task("Publish")
     .IsDependentOn("Package")
-    .WithCriteria(() => !local)
-    .WithCriteria(() => !isPullRequest)
-    .WithCriteria(() => isRepository)
+//    .WithCriteria(() => !local)
+//    .WithCriteria(() => !isPullRequest)
+//    .WithCriteria(() => isRepository)
     .Does (() =>
 {
     // Resolve the API key.
     var apiKey = EnvironmentVariable("MYGET_API_KEY");
     if (string.IsNullOrEmpty(apiKey))
     {
-        throw new InvalidOperationException("Could not resolve MyGet API key.");
+//        throw new InvalidOperationException("Could not resolve MyGet API key.");
     }
 
     // only push whitelisted packages.
@@ -207,8 +207,8 @@ Task("Publish")
 
         // Push the package.
         NuGetPush(packagePath, new NuGetPushSettings {
-            Source = "https://www.myget.org/F/ghuntley/api/v2/package",
-            ApiKey = apiKey
+            Source = "http://localhost:3128/api/odata",
+//            ApiKey = apiKey
         });
 
         // Push the symbols

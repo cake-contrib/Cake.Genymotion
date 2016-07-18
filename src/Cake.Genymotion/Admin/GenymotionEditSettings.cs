@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Cake.Genymotion.Admin
+namespace Cake.Genymotion
 {
     public sealed class GenymotionEditSettings : GenymotionSettings
     {

@@ -5,7 +5,7 @@ using Sprache;
 using System;
 using System.Collections.Generic;
 
-namespace Cake.Genymotion.Admin
+namespace Cake.Genymotion
 {
     public sealed class GenymotionAdminRunner : GenymotionTool<GenymotionAdminSettings>
     {
@@ -56,12 +56,6 @@ namespace Cake.Genymotion.Admin
         public void LogZip(string deviceIdentifier, string logArchivePath)
         {
             throw new NotImplementedException();
-        }
-
-        public void Reset(string deviceIdentifier)
-        {
-            var arguments = CreateArgumentBuilder(Settings).Append("admin reset").AppendQuotedUnlessNullWhitespaceOrEmpty(deviceIdentifier);
-            Run(Settings, arguments);
         }
 
         public void Start(string deviceIdentifier)

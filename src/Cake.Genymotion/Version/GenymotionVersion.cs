@@ -1,4 +1,4 @@
-﻿namespace Cake.Genymotion.Version
+﻿namespace Cake.Genymotion
 {
     /// <summary>
     ///     Version  : 2.7.2

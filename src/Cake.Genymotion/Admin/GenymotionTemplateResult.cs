@@ -1,4 +1,4 @@
-﻿namespace Cake.Genymotion.Admin
+﻿namespace Cake.Genymotion
 {
     /// <code>
     /// Name                  : Sony Xperia Z - 4.3 - API 18 - 1080x1920

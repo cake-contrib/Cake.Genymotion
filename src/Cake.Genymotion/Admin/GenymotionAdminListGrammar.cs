@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Cake.Genymotion.Admin
+namespace Cake.Genymotion
 {
     // Seperator.Parse("   | ").Dump();
     // Seperator.Parse("   |").Dump();
@@ -49,11 +49,9 @@ namespace Cake.Genymotion.Admin
             select string.Concat(seperator);
 
 
-        private static readonly Parser<GenymotionSimulatorState> State =
+        private static readonly Parser<string> State =
             from leading in Parse.WhiteSpace.Many().Optional()
-            from state in Parse.String("Aborted").Return(GenymotionSimulatorState.Aborted)
-                .Or(Parse.String("On").Return(GenymotionSimulatorState.On))
-                .Or(Parse.String("Off").Return(GenymotionSimulatorState.Off))
+            from state in Parse.Letter.Many().Text()
             from tailing in Parse.WhiteSpace.Many().Optional()
             select state;
 
@@ -97,7 +95,7 @@ namespace Cake.Genymotion.Admin
             from uuid in UUID
             from ignore3 in Seperator
             from name in Name
-            select new GenymotionAdminListResult {State = state, IpAddress = ipAddress, UUID = uuid, Name = name};
+            select new GenymotionAdminListResult { State = state, IpAddress = ipAddress, UUID = uuid, Name = name };
 
         public static readonly Parser<IEnumerable<GenymotionAdminListResult>> Simulators =
             from tailing in TableHeader

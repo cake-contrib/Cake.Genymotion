@@ -3,7 +3,7 @@ using Cake.Core.IO;
 using Cake.Core.Tooling;
 using System;
 
-namespace Cake.Genymotion.Version
+namespace Cake.Genymotion
 {
     public sealed class GenymotionVersionRunner : GenymotionTool<GenymotionVersionSettings>
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Cake.Genymotion.Admin
+namespace Cake.Genymotion
 {
     public class GenymotionDetailsResult
     {
@@ -18,7 +18,7 @@ namespace Cake.Genymotion.Admin
         public string ScreenDPI { get; set; }
         public string ScreenHeight { get; set; }
         public string ScreenWidth { get; set; }
-        public GenymotionSimulatorState State { get; set; }
+        public string State { get; set; }
         public Dictionary<string, string> SystemProperties { get; set; }
         public bool Telephony { get; set; }
         public string UUID { get; set; }

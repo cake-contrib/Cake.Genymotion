@@ -1,4 +1,4 @@
-﻿namespace Cake.Genymotion.Config
+﻿namespace Cake.Genymotion
 {
     public sealed class GenymotionConfigSettings : GenymotionSettings
     {

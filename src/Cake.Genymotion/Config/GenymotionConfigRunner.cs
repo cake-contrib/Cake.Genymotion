@@ -3,7 +3,7 @@ using Cake.Core.IO;
 using Cake.Core.Tooling;
 using System;
 
-namespace Cake.Genymotion.Config
+namespace Cake.Genymotion
 {
     public sealed class GenymotionConfigRunner : GenymotionTool<GenymotionConfigSettings>
     {
@@ -66,9 +66,9 @@ namespace Cake.Genymotion.Config
 
             builder.Append("config");
 
-            //  config [username USERNAME] [password PASSWORD] [license_server on | off] [license_server_address LICENSE_SERVER_ADDRESS] 
-            //         [statistics on | off] [virtual_device_path LOG_ARCHIVE_PATH][sdk_path LOG_ARCHIVE_PATH] [use_custom_sdk on | off] 
-            //         [screen_capture_path LOG_ARCHIVE_PATH] [proxy on | off] [proxy_address PROXY_ADDRESS] [proxy_port PROXY_PORT] 
+            //  config [username USERNAME] [password PASSWORD] [license_server on | off] [license_server_address LICENSE_SERVER_ADDRESS]
+            //         [statistics on | off] [virtual_device_path LOG_ARCHIVE_PATH][sdk_path LOG_ARCHIVE_PATH] [use_custom_sdk on | off]
+            //         [screen_capture_path LOG_ARCHIVE_PATH] [proxy on | off] [proxy_address PROXY_ADDRESS] [proxy_port PROXY_PORT]
             //         [proxy_auth on | off] [proxy_username PROXY_USERNAME] [proxy_password PROXY_PASSWORD]
 
             builder.AppendQuotedUnlessNullWhitespaceOrEmpty("username", settings.Username);
@@ -93,6 +93,5 @@ namespace Cake.Genymotion.Config
 
             return builder;
         }
-
     }
 }

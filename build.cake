@@ -187,15 +187,21 @@ Task("Package")
 Task("Publish")
     .IsDependentOn("Package")
 //    .WithCriteria(() => !local)
-//    .WithCriteria(() => !isPullRequest)
+    .WithCriteria(() => !isPullRequest)
 //    .WithCriteria(() => isRepository)
     .Does (() =>
 {
     // Resolve the API key.
-    var apiKey = EnvironmentVariable("MYGET_API_KEY");
+    var apiKey = EnvironmentVariable("NUGET_APIKEY");
     if (string.IsNullOrEmpty(apiKey))
     {
-//        throw new InvalidOperationException("Could not resolve MyGet API key.");
+        throw new Exception("The NUGET_APIKEY environment variable is not defined.");
+    }
+
+    var source = EnvironmentVariable("NUGET_SOURCE");
+    if (string.IsNullOrEmpty(source))
+    {
+        throw new Exception("The NUGET_SOURCE environment variable is not defined.");
     }
 
     // only push whitelisted packages.
@@ -207,8 +213,8 @@ Task("Publish")
 
         // Push the package.
         NuGetPush(packagePath, new NuGetPushSettings {
-            Source = "http://localhost:3128/api/odata",
-//            ApiKey = apiKey
+            Source = source,
+            ApiKey = apiKey
         });
 
         // Push the symbols

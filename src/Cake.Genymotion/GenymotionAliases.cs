@@ -11,6 +11,7 @@ using System.Runtime.CompilerServices;
 namespace Cake.Genymotion
 {
     [CakeAliasCategory("Genymotion")]
+    [CakeNamespaceImport("Cake.Genymotion")]
     public static class GenymotionAliases
     {
         /// <summary>

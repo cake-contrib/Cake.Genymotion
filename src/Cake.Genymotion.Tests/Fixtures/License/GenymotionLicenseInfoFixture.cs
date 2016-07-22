@@ -1,4 +1,5 @@
 ﻿using Cake.Genymotion;
+using Cake.Genymotion.License;
 
 namespace Cake.Genymotion.Tests.Fixtures.License
 {

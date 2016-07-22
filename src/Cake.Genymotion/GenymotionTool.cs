@@ -10,7 +10,7 @@ namespace Cake.Genymotion
     ///     Base class for all Genymotion related tools.
     /// </summary>
     /// <typeparam name="TSettings">The settings type.</typeparam>
-    public abstract class GenymotionTool<TSettings> : Tool<TSettings>
+    internal abstract class GenymotionTool<TSettings> : Tool<TSettings>
         where TSettings : GenymotionSettings
     {
         /// <summary>

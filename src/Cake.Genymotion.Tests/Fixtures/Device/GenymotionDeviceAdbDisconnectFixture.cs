@@ -1,4 +1,6 @@
-﻿namespace Cake.Genymotion.Tests.Fixtures.Device
+﻿using Cake.Genymotion.Device;
+
+namespace Cake.Genymotion.Tests.Fixtures.Device
 {
     internal sealed class GenymotionDeviceAdbDisconnectFixture : GenymotionFixture<GenymotionDeviceSettings>
     {

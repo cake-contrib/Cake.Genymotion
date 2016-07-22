@@ -1,11 +1,11 @@
-﻿using Cake.Core;
+﻿using System;
+using Cake.Core;
 using Cake.Core.IO;
 using Cake.Core.Tooling;
-using System;
 
-namespace Cake.Genymotion
+namespace Cake.Genymotion.Config
 {
-    public sealed class GenymotionConfigRunner : GenymotionTool<GenymotionConfigSettings>
+    internal sealed class GenymotionConfigRunner : GenymotionTool<GenymotionConfigSettings>
     {
         private readonly ICakeEnvironment _environment;
 

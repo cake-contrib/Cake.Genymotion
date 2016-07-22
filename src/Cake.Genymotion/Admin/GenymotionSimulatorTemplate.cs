@@ -1,4 +1,4 @@
-﻿namespace Cake.Genymotion
+﻿namespace Cake.Genymotion.Admin
 {
     /// <code>
     /// Name                  : Sony Xperia Z - 4.3 - API 18 - 1080x1920
@@ -21,7 +21,7 @@
     /// Shared by             :
     /// </code>
     /// >
-    public sealed class GenymotionTemplateResult
+    public sealed class GenymotionSimulatorTemplate
     {
         public string AndroidVersion { get; set; }
         public int APILevel { get; set; }

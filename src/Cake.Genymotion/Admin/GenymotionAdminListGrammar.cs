@@ -1,8 +1,8 @@
-﻿using Sprache;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using Sprache;
 
-namespace Cake.Genymotion
+namespace Cake.Genymotion.Admin
 {
     // Seperator.Parse("   | ").Dump();
     // Seperator.Parse("   |").Dump();
@@ -87,7 +87,7 @@ namespace Cake.Genymotion
             from name in Parse.AnyChar.Until(NewLine).Text()
             select name;
 
-        private static readonly Parser<GenymotionAdminListResult> Simulator =
+        private static readonly Parser<GenymotionSimulator> Simulator =
             from state in State
             from ignore1 in Seperator
             from ipAddress in IpAddress
@@ -95,9 +95,9 @@ namespace Cake.Genymotion
             from uuid in UUID
             from ignore3 in Seperator
             from name in Name
-            select new GenymotionAdminListResult { State = state, IpAddress = ipAddress, UUID = uuid, Name = name };
+            select new GenymotionSimulator { State = state, IpAddress = ipAddress, UUID = uuid, Name = name };
 
-        public static readonly Parser<IEnumerable<GenymotionAdminListResult>> Simulators =
+        public static readonly Parser<IEnumerable<GenymotionSimulator>> Simulators =
             from tailing in TableHeader
             from newline in Parse.String(Environment.NewLine)
             from simulator in Simulator.Many()

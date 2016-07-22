@@ -1,6 +1,6 @@
-﻿namespace Cake.Genymotion
+﻿namespace Cake.Genymotion.Admin
 {
-    public class GenymotionAdminListResult
+    public sealed class GenymotionSimulator
     {
         public string IpAddress { get; set; }
         public string Name { get; set; }

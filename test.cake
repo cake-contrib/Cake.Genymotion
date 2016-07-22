@@ -1,5 +1,5 @@
 
-#addin "nuget:http://geoffrey-pc:3128/api/odata?package=Cake.Genymotion"
+#addin "nuget:http://nuget:3128/api/odata?package=Cake.Genymotion"
 using Cake.Genymotion;
 
 Task("RunIntegrationTests")

@@ -1,13 +1,13 @@
-﻿using Cake.Core;
+﻿using System;
+using System.Collections.Generic;
+using Cake.Core;
 using Cake.Core.IO;
 using Cake.Core.Tooling;
 using Sprache;
-using System;
-using System.Collections.Generic;
 
-namespace Cake.Genymotion
+namespace Cake.Genymotion.Admin
 {
-    public sealed class GenymotionAdminRunner : GenymotionTool<GenymotionAdminSettings>
+    internal sealed class GenymotionAdminRunner : GenymotionTool<GenymotionAdminSettings>
     {
         private readonly ICakeEnvironment _environment;
 
@@ -28,12 +28,12 @@ namespace Cake.Genymotion
             Run(Settings, arguments);
         }
 
-        public GenymotionDetailsResult Details(string deviceIdentifier)
+        public GenymotionSimulatorDetails Details(string deviceIdentifier)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<GenymotionDetailsResult> Details(IEnumerable<string> deviceIdentifier)
+        public IEnumerable<GenymotionSimulatorDetails> Details(IEnumerable<string> deviceIdentifier)
         {
             throw new NotImplementedException();
         }
@@ -44,7 +44,7 @@ namespace Cake.Genymotion
             Run(Settings, arguments);
         }
 
-        public IEnumerable<GenymotionAdminListResult> List()
+        public IEnumerable<GenymotionSimulator> List()
         {
             var arguments = CreateArgumentBuilder(Settings).Append("admin list");
 
@@ -76,7 +76,7 @@ namespace Cake.Genymotion
             Run(Settings, arguments);
         }
 
-        public IEnumerable<GenymotionTemplateResult> Templates(bool forceRefresh = false)
+        public IEnumerable<GenymotionSimulatorTemplate> Templates(bool forceRefresh = false)
         {
             throw new NotImplementedException();
         }

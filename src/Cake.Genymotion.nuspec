@@ -8,7 +8,7 @@
     <language>en-us</language>
   </metadata>
   <files>
-    <!-- Portable PCL -->
+    <!-- .NET 45 -->
     <file src="bin/Release/Cake.Genymotion.dll" target="lib/net45" />
     <file src="bin/Release/Sprache.dll" target="lib/net45" />
     <file src="bin/Release/NewtonSoft.Json.dll" target="lib/net45" />

@@ -7,11 +7,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using Cake.Genymotion.Admin;
+using Cake.Genymotion.Config;
+using Cake.Genymotion.Device;
+using Cake.Genymotion.License;
 
 namespace Cake.Genymotion
 {
     [CakeAliasCategory("Genymotion")]
     [CakeNamespaceImport("Cake.Genymotion")]
+    [CakeNamespaceImport("Cake.Genymotion.Admin")]
+    [CakeNamespaceImport("Cake.Genymotion.Config")]
+    [CakeNamespaceImport("Cake.Genymotion.Device")]
+    [CakeNamespaceImport("Cake.Genymotion.License")]
+    [CakeNamespaceImport("Cake.Genymotion.Version")]
     public static class GenymotionAliases
     {
         /// <summary>
@@ -106,7 +115,7 @@ namespace Cake.Genymotion
         /// <param name="settings"></param>
         /// <returns></returns>
         [CakeMethodAlias]
-        public static IReadOnlyList<GenymotionAdminListResult> ListGenymotionSimulators(this ICakeContext context, GenymotionAdminSettings settings)
+        public static IReadOnlyList<GenymotionSimulator> ListGenymotionSimulators(this ICakeContext context, GenymotionAdminSettings settings)
         {
             var runner = new GenymotionAdminRunner(context.FileSystem, context.Environment, context.ProcessRunner, context.Tools, settings);
             return runner.List().ToList().AsReadOnly();
@@ -118,7 +127,7 @@ namespace Cake.Genymotion
         /// <param name="context"></param>
         /// <returns></returns>
         [CakeMethodAlias]
-        public static IReadOnlyList<GenymotionAdminListResult> ListGenymotionSimulators(this ICakeContext context)
+        public static IReadOnlyList<GenymotionSimulator> ListGenymotionSimulators(this ICakeContext context)
         {
             return ListGenymotionSimulators(context, new GenymotionAdminSettings());
         }

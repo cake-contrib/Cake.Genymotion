@@ -1,4 +1,5 @@
 ﻿using Cake.Genymotion;
+using Cake.Genymotion.Admin;
 
 namespace Cake.Genymotion.Tests.Fixtures.Admin
 {

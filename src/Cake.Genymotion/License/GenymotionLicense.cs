@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cake.Genymotion
+namespace Cake.Genymotion.License
 {
     public sealed class GenymotionLicense
     {

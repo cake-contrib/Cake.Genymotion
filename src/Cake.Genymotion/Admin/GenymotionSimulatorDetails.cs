@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace Cake.Genymotion
+namespace Cake.Genymotion.Admin
 {
-    public class GenymotionDetailsResult
+    public sealed class GenymotionSimulatorDetails
     {
         public string AndroidVersion { get; set; }
         public string APILevel { get; set; }

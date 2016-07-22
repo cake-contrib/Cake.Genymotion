@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cake.Genymotion
 {
-    public static class StringExtensions
+    internal static class StringExtensions
     {
         public static string ToStringOnOff(this bool boolean)
         {

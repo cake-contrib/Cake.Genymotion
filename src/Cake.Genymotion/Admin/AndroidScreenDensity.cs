@@ -1,4 +1,4 @@
-﻿namespace Cake.Genymotion
+﻿namespace Cake.Genymotion.Admin
 {
     public enum AndroidScreenDensity
     {

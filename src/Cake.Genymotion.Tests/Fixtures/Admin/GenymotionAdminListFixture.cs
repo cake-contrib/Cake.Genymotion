@@ -3,6 +3,7 @@ using Cake.Testing.Fixtures;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using Cake.Genymotion.Admin;
 
 namespace Cake.Genymotion.Tests.Fixtures.Admin
 {
@@ -14,7 +15,7 @@ namespace Cake.Genymotion.Tests.Fixtures.Admin
             ProcessRunner.Process.SetStandardOutput(standardOutput);
         }
 
-        public IEnumerable<GenymotionAdminListResult> ToolResult { get; set; }
+        public IEnumerable<GenymotionSimulator> ToolResult { get; set; }
 
         protected override void RunTool()
         {
